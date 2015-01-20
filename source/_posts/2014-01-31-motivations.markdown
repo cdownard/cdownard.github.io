@@ -16,15 +16,15 @@ Some I simply like to flesh out and think about the 'cool' factor. Things that
 increase cool factor:
 
 ###Real-time###
-{% blockquote %}
+
 "Post and response ... is kind of boring. I think most people have become
 accustomed to see the spinning wheel load your results."
+
 This has got to be a trendy thing, but it also makes software so nifty these
 days. Things like 'real-time collaboration' or sharing or feedback. They all
 make software feel not only faster but engaging. Post and response, where you
 post data and are then rendered a results view, is kind of boring. I think most
 people have become accustomed to see the spinning wheel load your results.
-{% endblockquote %}
 
 I know at my day job I see that wheel all the time when I'm doing tests. We're
 in the midst of launching a new version of our UI for the main part of our
@@ -46,6 +46,7 @@ one piece.
 "Social also means having a community. If you build a community, meaning forming
 a common culture around a topic, idea, belief, etc., then you're more likely to
 attract more people from that pool."
+
 Ideas these days tend to have some social component. Sharing an achievement in a
 weight loss tracker or a ride you just completed. Not to mention the calls to
 action to share that you're using a given product. Moreover, it's almost more

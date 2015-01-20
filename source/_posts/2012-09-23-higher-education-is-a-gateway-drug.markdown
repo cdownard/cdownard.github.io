@@ -7,14 +7,12 @@ categories: education learning school programming work
 ---
 If you're like me, then you've been told your whole life the same thing:
 
-{% blockquote %}
 Be good. Get good grades. Get into a good school. Get a good job.
-{% endblockquote %}
 
 That's a lot of repetition for the word "good." But all of those conditions are
 not sufficient to produce the final result. This mantra is espoused by parents
 and society (teachers, advisors, etc.) as if it's a logical conclusion:
-IF you're good and get good grades and get into a good school  THEN you'll get a 
+IF you're good and get good grades and get into a good school  THEN you'll get a
 good job.
 <!--more-->
 This is pretty faulty logic. For the P,Q logic geeks out there you can of course

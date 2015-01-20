@@ -25,9 +25,7 @@ over trying to find the most perfect solution to a problem you might not
 encounter. The problem is that you sometimes run across people who have decided
 the acronym is some sort of excuse to not think about most problems.
 
-{% blockquote %}
 YAGNI is not an excuse to ignore design decisions.
-{% endblockquote %}
 
 I have witnessed veteran developers shutting down younger developers
 exploring the merits of a potential future need because "it just wasn't likely."
@@ -38,10 +36,8 @@ flexible structure you can without going overboard. You won't always be able to
 identify and clearly delineate that distinction; but it is something that you can
 learn over time.
 
-{% blockquote %}
 It's your job to try to build the most flexible structure you can without going
 overboard.
-{% endblockquote %}
 
 When you begin work on a codebase with milestones and/or timelined deliverables,
 you sometimes find yourself making small compromises for the benefit of
