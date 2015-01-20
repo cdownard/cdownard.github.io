@@ -3,7 +3,7 @@ layout: post
 title: "Learning C"
 date: 2012-10-28 09:00:00 -0700
 comments: true
-categories:learning,school,programming,C
+categories: learning school programming C
 ---
 I don't have years of programming experience. The time that I devote to learning languages tends to be allocated to Python or something work related (.Net). However, I'm currently enrolled in a course focused on introductory C. At times I feel as though I have stepped into a time machine.
 <!--more-->

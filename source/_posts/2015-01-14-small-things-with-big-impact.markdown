@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Small Change, Big Impact: Planning for evolving requirements"
-date: 2015-01-14 22:12:41 -0700
+date: 2015-01-14 09:00:00 -0700
 comments: true
-categories: ruby,rails,OOD
+categories: ruby rails OOD programming code development
+published: false
 ---
 
 The needs of an application change overtime. As a result, it can be difficult to

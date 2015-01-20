@@ -3,7 +3,7 @@ layout: post
 title: "Higher Education is a Gateway Drug"
 date: 2012-09-23 09:00:00 -0700
 comments: true
-categories: education,learning,school,programming,work
+categories: education learning school programming work
 ---
 If you're like me, then you've been told your whole life the same thing:
 
