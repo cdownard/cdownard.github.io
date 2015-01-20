@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: C | Code Quorum]]></title>
+  <link href="http://cdownard.github.io/blog/categories/c/atom.xml" rel="self"/>
+  <link href="http://cdownard.github.io/"/>
+  <updated>2015-01-20T08:06:17-07:00</updated>
+  <id>http://cdownard.github.io/</id>
+  <author>
+    <name><![CDATA[Christopher Downard]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Learning C]]></title>
+    <link href="http://cdownard.github.io/blog/2012/10/28/learning-c/"/>
+    <updated>2012-10-28T10:00:00-06:00</updated>
+    <id>http://cdownard.github.io/blog/2012/10/28/learning-c</id>
+    <content type="html"><![CDATA[<p>I don&rsquo;t have years of programming experience. The time that I devote to learning languages tends to be allocated to Python or something work related (.Net). However, I&rsquo;m currently enrolled in a course focused on introductory C. At times I feel as though I have stepped into a time machine.</p>
+
+<!--more-->
+
+
+<p>I used to play this video game and the people who were really obsessed maxed all their stats as much as they could. There were intense calculations that could be done. People could spend hours figuring out the best way to spellcraft their armor or weapons so that every possible point or stat could be claimed. More hours would be spent &ldquo;farming&rdquo; locations for &ldquo;drops&rdquo; to create the perfect armor set. It sounds like a complete waste of time, and maybe it was, but it was certainly fun. I was one of those obsessed people that did everything they could to maximize their &ldquo;utility.&rdquo;</p>
+
+<p>C reminds me of this mindset. I can completely see how people who are obsessed with performance or being in control of as many aspects of a program as possible would love C. You get to control almost everything so you get to optimize almost everything. You manage your memory. You fine tune everything. No doubt C is fast, but for once in my life I find myself enjoying the automatic management I get from lots of other, higher-level languages. Obtaining input in C presents a good example:</p>
+
+<pre><code class="C">#include &lt;stdio.h&gt;
+
+void main ()
+{
+    int inputChoice;
+    do {
+        printf("Please make a selection from the choices (1-4): ");
+        scanf("%d*[\n]");
+        if (inputChoice &lt; 1 || inputChoice &gt; 4) {
+            printf("Error - you have entered an invalid choice.");
+        }
+} (while inputChoice &lt; 1 || inputChoice &gt; 4);}
+</code></pre>
+
+<p>This is how we collect input in C. We have to protect ourselves, and an easy way for a beginner like myself in C to protect against bad data is to use a do loop. Oh, that section with <code>*[\n]</code>? Yeah. That prevents the system from trying to store the newline character (<code>\n</code>). Yep. You have to handle that.</p>
+
+<p>The thing is, I completely understand how awesome this must have been for a long time. But now it&rsquo;s just not necessary to me to spend a lot of time doing all this when I can literally do it in one line of code in another language. Take python for example:</p>
+
+<pre><code class="python">inputChoice = input('Please make a selection')
+</code></pre>
+
+<p>I&rsquo;m cheating because there&rsquo;s no error handling. But we can add that with a couple of lines admittedly. The point isn&rsquo;t so much the length. It&rsquo;s having to handle things like the newline character. You also can&rsquo;t test data types in C.</p>
+]]></content>
+  </entry>
+  
+</feed>

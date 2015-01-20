@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Gui | Code Quorum]]></title>
+  <link href="http://cdownard.github.io/blog/categories/gui/atom.xml" rel="self"/>
+  <link href="http://cdownard.github.io/"/>
+  <updated>2015-01-20T08:06:17-07:00</updated>
+  <id>http://cdownard.github.io/</id>
+  <author>
+    <name><![CDATA[Christopher Downard]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[WYSIWYG Editor in Windows Forms Applications - Leveraging TinyMCE]]></title>
+    <link href="http://cdownard.github.io/blog/2013/10/01/wysiwyg-editor-in-windows-forms-applications-leveraging-tinymce/"/>
+    <updated>2013-10-01T10:00:00-06:00</updated>
+    <id>http://cdownard.github.io/blog/2013/10/01/wysiwyg-editor-in-windows-forms-applications-leveraging-tinymce</id>
+    <content type="html"><![CDATA[<p>Recently I was tasked with working on creating a version 2.0 application for an internal tool we use at work. We have a team that creates web content for our clients and this application allows them to compose that web content. In the redesign, we decided it would be fantastic if people could use a simplified HTML editor to generate content for the prompts and various information we output on the web pages. Currently, individuals are required to know (read: ask others for help) the HTML and it makes for a frustrating experience in using something that doesn&rsquo;t actually expose the HTML to the end user. Those who are using the app shouldn&rsquo;t be required to understand block elements or how to open a link in a new window. It should be painless and inputting that content should be fast.</p>
+
+<!--more-->
+
+
+<p>Rather than forcing someone to use HTML tags, they should be able to highlight and toggle as if they were using a text editor. Well, I got as far as making the three buttons for bold, italic, and underline and realized I was reinventing the wheel. I had just added TinyMCE to our text areas for custom text our clients entered in our development environment. It was incredibly easy to use and it has a permissive license.</p>
+
+<p>TinyMCE Sample - <a href="http://www.tinymce.com/">http://www.tinymce.com/</a>
+Naturally, there had to be a way to implement TinyMCE inside a Windows form and save a lot of time creating monotonous string handling code. And of course there was.</p>
+
+<p>I recognize I&rsquo;m writing this tutorial when there are others that offer help (one I used for help) on getting this set up. The one I used for help is pretty much the information that&rsquo;s here. That was the only other tutorial I found that was worth while. If you get tired of reading my outline of the solution, go read that one. If you want to continue with me, then go get TinyMCE. I actually downloaded it and stored it to a local resource, but you could always just use the CDN if you want. I&rsquo;d recommend local.</p>
+
+<p>Once you have that done, let&rsquo;s start a visual studio project. I&rsquo;ll use Visual Basic for this example but the C# code is almost identical (add curly braces, stir, and call me in the morning).</p>
+
+<p>There are only 3 real pieces to this entire thing.</p>
+
+<p>Web browser control pointed at your local HTML file with the JavaScript stuff all in it
+A method to set the content inside the TinyMCE editor
+A method to get the content out of the TinyMCE editor
+Best part? The heavy lifting is all JavaScript in the HTML page. For those that found this page via a search engine, the short version is make a method in the JavaScript for getting and setting the content of TinyMCE. Then use your big boy programming language (just kidding, I love you JavaScript) to access that information. The reason you need the get and set methods is because you&rsquo;re probably going to be doing something with the content that&rsquo;s being filled in or displayed.</p>
+
+<p>In my case, I&rsquo;m pulling html content out of a database and shoving it in TinyMCE so non-technical folks can easily create styling for text. Once they&rsquo;re done, I invoke the get and then store the result back into the database.</p>
+
+<p>Ok, enough with details. Let&rsquo;s see the code you&rsquo;ll need to produce.
+HTML</p>
+
+<p>Replace the bold lettering with what you need.</p>
+
+<p>&#8220;`html</p>
+
+<script type='text/javascript' src='file:///yourpath/tinymce/tinymce.min.js'></script>
+
+
+
+
+<script type='text/javascript'>
+    function GetContent() {
+        return tinymce.get('tinyMceEditor').getContent();
+    }
+
+    function SetContent(htmlContent) {
+        tinymce.get('tinyMceEditor').setContent(htmlContent);
+    }
+
+    tinymce.init({ whole host of options });
+</script>
+
+
+<p><body>
+  <form method='post'>
+   <textarea name='tinyMceEditor' cols='1' rows='1' style='width:100%; height:
+100%'></textarea>
+  </form>
+</body>
+&#8220;`</p>
+
+<p>That&rsquo;s pretty much it. You&rsquo;d do well to add your usual html tags to it so it is recognized as html. But yeah. That&rsquo;s all the html it took to get working. The cool part is setting up the other set of code for this.</p>
+
+<p>Drop a web browser control on a form, tell it to navigate to your html doc. Awesome, TinyMCE loads right? So that&rsquo;s fantastic. But let&rsquo;s add the two methods it takes to get and set content. Which are crazy simple.</p>
+
+<pre><code class="vb.net">Public Sub SetTinyMceContent(ByVal htmlContent As String)
+   Dim contents() As Object = {htmlContent}
+   TinyMceBrowser.Document.InvokeScript("SetContent", contents)
+End Sub
+</code></pre>
+
+<p>In case it&rsquo;s not apparent, the TinyMceBrowser object is my browser control. Now the get content method.</p>
+
+<pre><code class="vb.net">Public Sub GetTinyMceContent()
+   Dim html As Object = TinyMceBrowser.Document.InvokeScript("GetContent")
+   Dim content As String = html.ToString()
+End Sub
+</code></pre>
+
+<p>That&rsquo;s it. Now obviously you probably want the Get as a function that returns a value unless it&rsquo;s just going to run off and perform its procedure. But that&rsquo;s really all it takes. I have more code in these methods to perform stuff related to our database, but these two lines in each method are where the magic is happening.</p>
+
+<p>Ta da. Short. Sweet. Simple tutorial on how to bring some slick JavaScript text editor action to your Windows applications.</p>
+]]></content>
+  </entry>
+  
+</feed>

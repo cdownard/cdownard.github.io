@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Ruby | Code Quorum]]></title>
+  <link href="http://cdownard.github.io/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://cdownard.github.io/"/>
+  <updated>2015-01-20T08:06:17-07:00</updated>
+  <id>http://cdownard.github.io/</id>
+  <author>
+    <name><![CDATA[Christopher Downard]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby on Rails - I'm Kind of Late to the Game]]></title>
+    <link href="http://cdownard.github.io/blog/2013/11/22/ruby-on-rails-im-kind-of-late-to-the-game/"/>
+    <updated>2013-11-22T09:00:00-07:00</updated>
+    <id>http://cdownard.github.io/blog/2013/11/22/ruby-on-rails-im-kind-of-late-to-the-game</id>
+    <content type="html"><![CDATA[<p>Recently I started a new side project. This one I&rsquo;m going to finish all the way
+through. Like many people who enjoy programming as a profession and hobby, I
+tend to start a lot of projects where I learn something and move on. The project
+tends to serve its purpose and then I&rsquo;m able to tackle something bigger or that
+is more interesting to me at the moment.</p>
+
+<p>This idea is different. I want to use it on the regular. And I&rsquo;m sure others
+will too. So naturally I was ready to roll instantly and hit the ground running.
+Normally I work on a project with another person, +Clint Shuman, but he hasn&rsquo;t
+been as available lately since his wife recently gave birth to their son.</p>
+
+<!--more-->
+
+
+<p>Lately I&rsquo;ve been approaching all problems the same way: nail, meet hammer. I
+decided when approaching this one to try building a couple of things in two
+frameworks - django and rails. Rails has scaffolding, which is a lot of code I&rsquo;m
+probably going to replace, but I can get pieces up and going with CRUD almost
+instantly. This is really handy when I&rsquo;m just trying to establish relationships
+and see how things are going to work. Django is still quick with class-based
+views (CBV), but there&rsquo;s just something about how rails works that is nice.</p>
+
+<p>I told Clint I was learning rails and the first thing he said was &ldquo;Traitor.&rdquo; I
+admit to feeling that way somewhat. Python is a fantastic language. I can&rsquo;t help
+but wish I could combine the rails framework with Python. And Django is
+completely open-ended. Implement any app any way you want. Sure, there are
+conventions, but Python is certainly configuration first. Rails is pretty much
+the opposite. In fact, the saying that goes along with the framework is
+&ldquo;Convention over configuration.&rdquo; Since I don&rsquo;t know the language very well this
+doesn&rsquo;t bother me. Forcing me to do something a certain way is fine because I
+probably don&rsquo;t understand fully what&rsquo;s happening right now. It will be
+interesting to see how much I like this notion the longer I spend working with
+the framework.</p>
+
+<p>But for a beginner, Django can be difficult. The tutorials that are out there
+are ok, but not fantastic. It always seems like reading helper information on
+Django expects you to know a lot already. And that&rsquo;s just not realistic. Rails
+has been around for ten years now and is widely used because it became the
+popular thing to do. The plethora of tutorial and screencasts for it makes the
+prospect of learning it much easier.</p>
+
+<p>Still&hellip;I miss Python at night. I&rsquo;ll come home soon, Python. For now, I have a
+project I want to see completely through to finish. That is, hosted and live for
+everyone. And I&rsquo;m going to do the whole thing in Rails.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Learning C - Code Quorum</title>
+  <meta name="author" content="Christopher Downard">
+
+  
+  <meta name="description" content="Learning C written in c, learning, programming, school I don&rsquo;t have years of programming experience. The time that I devote to learning &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://cdownard.github.io/blog/2012/10/28/learning-c">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Code Quorum" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-58697952-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+  <body>
+    <a href="/" class="home-icon">
+      <img src="/images/home.png"/>
+    </a>
+
+    <article role="article" class="full-single-article">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>Learning C</h1>
+        <div class="meta">
+          written 
+
+
+
+
+
+
+
+
+  
+
+
+
+<time datetime="2012-10-28T10:00:00-06:00" pubdate data-updated="true"></time>
+          
+
+in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/c/'>c</a>, <a class='category' href='/blog/categories/learning/'>learning</a>, <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/school/'>school</a>
+  
+</span>
+
+
+        </div>
+        <p>I don&rsquo;t have years of programming experience. The time that I devote to learning languages tends to be allocated to Python or something work related (.Net). However, I&rsquo;m currently enrolled in a course focused on introductory C. At times I feel as though I have stepped into a time machine.</p>
+
+<!--more-->
+
+
+<p>I used to play this video game and the people who were really obsessed maxed all their stats as much as they could. There were intense calculations that could be done. People could spend hours figuring out the best way to spellcraft their armor or weapons so that every possible point or stat could be claimed. More hours would be spent &ldquo;farming&rdquo; locations for &ldquo;drops&rdquo; to create the perfect armor set. It sounds like a complete waste of time, and maybe it was, but it was certainly fun. I was one of those obsessed people that did everything they could to maximize their &ldquo;utility.&rdquo;</p>
+
+<p>C reminds me of this mindset. I can completely see how people who are obsessed with performance or being in control of as many aspects of a program as possible would love C. You get to control almost everything so you get to optimize almost everything. You manage your memory. You fine tune everything. No doubt C is fast, but for once in my life I find myself enjoying the automatic management I get from lots of other, higher-level languages. Obtaining input in C presents a good example:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class='C'><span class='line'><span class="cp">#include &lt;stdio.h&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="kt">void</span> <span class="nf">main</span> <span class="p">()</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'>    <span class="kt">int</span> <span class="n">inputChoice</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">do</span> <span class="p">{</span>
+</span><span class='line'>        <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Please make a selection from the choices (1-4): &quot;</span><span class="p">);</span>
+</span><span class='line'>        <span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%d*[</span><span class="se">\n</span><span class="s">]&quot;</span><span class="p">);</span>
+</span><span class='line'>        <span class="k">if</span> <span class="p">(</span><span class="n">inputChoice</span> <span class="o">&lt;</span> <span class="mi">1</span> <span class="o">||</span> <span class="n">inputChoice</span> <span class="o">&gt;</span> <span class="mi">4</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>            <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Error - you have entered an invalid choice.&quot;</span><span class="p">);</span>
+</span><span class='line'>        <span class="p">}</span>
+</span><span class='line'><span class="p">}</span> <span class="p">(</span><span class="k">while</span> <span class="n">inputChoice</span> <span class="o">&lt;</span> <span class="mi">1</span> <span class="o">||</span> <span class="n">inputChoice</span> <span class="o">&gt;</span> <span class="mi">4</span><span class="p">);}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This is how we collect input in C. We have to protect ourselves, and an easy way for a beginner like myself in C to protect against bad data is to use a do loop. Oh, that section with <code>*[\n]</code>? Yeah. That prevents the system from trying to store the newline character (<code>\n</code>). Yep. You have to handle that.</p>
+
+<p>The thing is, I completely understand how awesome this must have been for a long time. But now it&rsquo;s just not necessary to me to spend a lot of time doing all this when I can literally do it in one line of code in another language. Take python for example:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="n">inputChoice</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">&#39;Please make a selection&#39;</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I&rsquo;m cheating because there&rsquo;s no error handling. But we can add that with a couple of lines admittedly. The point isn&rsquo;t so much the length. It&rsquo;s having to handle things like the newline character. You also can&rsquo;t test data types in C.</p>
+
+
+        <hr class="divider-short"/>
+
+        
+        <section>
+          <h1>Comments</h1>
+          <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+        </section>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+<hr class="divider-short"/>
+
+<div class="archive-link">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        
+          <a class="pull-left" href="/blog/2012/09/23/higher-education-is-a-gateway-drug/" title="Previous Post: Higher Education is a Gateway Drug">&laquo; Previous: Higher Education is a Gateway Drug</a>
+        
+
+        
+          <a class="pull-right" href="/blog/2012/11/02/new-project-active-slash-responsive-ambient-lighting/" title="Next Post: New Project - Active/Responsive Ambient Lighting">Next: New Project - Active/Responsive Ambient Lighting &raquo;</a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="her-row">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1">
+  <a href="/"><h4>Home</h4></a>
+</div>
+
+<div class="col-md-2">
+  <div class="social-icon-list">
+    
+    <a href="https://twitter.com/chrisdownard"><img src="/images/glyphicons_social_31_twitter.png"/></a>
+    
+
+    
+    <a href="https://github.com/cdownard"><img src="/images/glyphicons_social_21_github.png"/></a>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="pull-right">
+  <h4>Powered by <a href="http://octopress.org/">Octopress</a>. Designed by <a href="http://AdrianArtiles.com">Adrian Artiles</a>.</h4>
+</div>
+
+
+    </div>
+  </div>
+</footer>
+
+    
+      
+
+<script type="text/javascript">
+      var disqus_shortname = 'codequorum';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://cdownard.github.io/blog/2012/10/28/learning-c/';
+        var disqus_url = 'http://cdownard.github.io/blog/2012/10/28/learning-c/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+    
+  </body>
+</html>

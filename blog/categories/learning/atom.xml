@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Learning | Code Quorum]]></title>
+  <link href="http://cdownard.github.io/blog/categories/learning/atom.xml" rel="self"/>
+  <link href="http://cdownard.github.io/"/>
+  <updated>2015-01-20T08:06:17-07:00</updated>
+  <id>http://cdownard.github.io/</id>
+  <author>
+    <name><![CDATA[Christopher Downard]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Learning C]]></title>
+    <link href="http://cdownard.github.io/blog/2012/10/28/learning-c/"/>
+    <updated>2012-10-28T10:00:00-06:00</updated>
+    <id>http://cdownard.github.io/blog/2012/10/28/learning-c</id>
+    <content type="html"><![CDATA[<p>I don&rsquo;t have years of programming experience. The time that I devote to learning languages tends to be allocated to Python or something work related (.Net). However, I&rsquo;m currently enrolled in a course focused on introductory C. At times I feel as though I have stepped into a time machine.</p>
+
+<!--more-->
+
+
+<p>I used to play this video game and the people who were really obsessed maxed all their stats as much as they could. There were intense calculations that could be done. People could spend hours figuring out the best way to spellcraft their armor or weapons so that every possible point or stat could be claimed. More hours would be spent &ldquo;farming&rdquo; locations for &ldquo;drops&rdquo; to create the perfect armor set. It sounds like a complete waste of time, and maybe it was, but it was certainly fun. I was one of those obsessed people that did everything they could to maximize their &ldquo;utility.&rdquo;</p>
+
+<p>C reminds me of this mindset. I can completely see how people who are obsessed with performance or being in control of as many aspects of a program as possible would love C. You get to control almost everything so you get to optimize almost everything. You manage your memory. You fine tune everything. No doubt C is fast, but for once in my life I find myself enjoying the automatic management I get from lots of other, higher-level languages. Obtaining input in C presents a good example:</p>
+
+<pre><code class="C">#include &lt;stdio.h&gt;
+
+void main ()
+{
+    int inputChoice;
+    do {
+        printf("Please make a selection from the choices (1-4): ");
+        scanf("%d*[\n]");
+        if (inputChoice &lt; 1 || inputChoice &gt; 4) {
+            printf("Error - you have entered an invalid choice.");
+        }
+} (while inputChoice &lt; 1 || inputChoice &gt; 4);}
+</code></pre>
+
+<p>This is how we collect input in C. We have to protect ourselves, and an easy way for a beginner like myself in C to protect against bad data is to use a do loop. Oh, that section with <code>*[\n]</code>? Yeah. That prevents the system from trying to store the newline character (<code>\n</code>). Yep. You have to handle that.</p>
+
+<p>The thing is, I completely understand how awesome this must have been for a long time. But now it&rsquo;s just not necessary to me to spend a lot of time doing all this when I can literally do it in one line of code in another language. Take python for example:</p>
+
+<pre><code class="python">inputChoice = input('Please make a selection')
+</code></pre>
+
+<p>I&rsquo;m cheating because there&rsquo;s no error handling. But we can add that with a couple of lines admittedly. The point isn&rsquo;t so much the length. It&rsquo;s having to handle things like the newline character. You also can&rsquo;t test data types in C.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Higher Education Is a Gateway Drug]]></title>
+    <link href="http://cdownard.github.io/blog/2012/09/23/higher-education-is-a-gateway-drug/"/>
+    <updated>2012-09-23T10:00:00-06:00</updated>
+    <id>http://cdownard.github.io/blog/2012/09/23/higher-education-is-a-gateway-drug</id>
+    <content type="html"><![CDATA[<p>If you&rsquo;re like me, then you&rsquo;ve been told your whole life the same thing:</p>
+
+<p><blockquote><p>Be good. Get good grades. Get into a good school. Get a good job.</p></blockquote></p>
+
+<p>That&rsquo;s a lot of repetition for the word &ldquo;good.&rdquo; But all of those conditions are
+not sufficient to produce the final result. This mantra is espoused by parents
+and society (teachers, advisors, etc.) as if it&rsquo;s a logical conclusion:
+IF you&rsquo;re good and get good grades and get into a good school  THEN you&rsquo;ll get a
+good job.</p>
+
+<!--more-->
+
+
+<p>This is pretty faulty logic. For the P,Q logic geeks out there you can of course
+pick this apart pretty quickly. But the point here is that the good job doesn&rsquo;t
+necessarily come from the previous conditions. They help, sure, but there&rsquo;s an X
+factor somewhere. We can call it luck, ambition, drive, personal draw (the
+nature of someone being drawn to another or &ldquo;taking a liking to&rdquo; another), and
+I&rsquo;m sure many others.</p>
+
+<p>One thing is clear: getting a good education isn&rsquo;t about getting a job. It&rsquo;s
+about becoming a better thinker. I&rsquo;m not sure when we decided that time spent in
+a college or university was job training, but that&rsquo;s how people treat it now. I
+have been guilty of treating university education as job training. It usually
+presents itself in the following form:
+Why do I have to take class X? I&rsquo;ll never have to use that in my future job.
+Well no kidding. If your focus is to only learn what you need for use on the
+job, go get a technical certificate and just work in the real world instead of
+going to university. The point of higher education is not to make better
+workers. That&rsquo;s job training, technical training, conferences, and the like.
+Pursue those avenues for making a better or more knowledgeable worker. The
+purpose of higher education is to make better thinkers. It frustrates me to no
+end to hear about how an individual believes they have no need to take an
+English (that is, composition/rhetoric) course because it doesn&rsquo;t apply to their
+mathematics degree.</p>
+
+<p>Yes, it does.</p>
+
+<p>Effectively communicating applies to all degrees and careers. If you can&rsquo;t
+write, you&rsquo;re at a disadvantage. If you can only perform basic math, you&rsquo;re at a
+disadvantage. You also look foolish in a meeting where you&rsquo;re discussing
+projections when you don&rsquo;t understand how someone arrived at a particular
+conclusion based on some basic algebraic formula. I remember thinking to myself
+in a class on Natural Resources why would I possibly ever need to know what the
+silver lining on a cloud is called.</p>
+
+<p>The reality is that having an education has intrinsic value. Humans have
+incredible powers of perception, but if you don&rsquo;t have a broad base of
+information you can&rsquo;t draw the same conclusions. The age of Google and instant
+access to information has enabled us to do more but has simultaneously resulted
+in lowered expectations of what we need to know. Rather than thinking about all
+the new things you can learn, instead our society takes the approach of not
+needing to know something because they know where to find it.</p>
+
+<p>That&rsquo;s good for the over-achieving crowd. But it&rsquo;s bad for those who are
+disinterested. Those who can use that knowledge and conclude something more
+quickly are at an advantage in career competition. That&rsquo;s not to say one should
+attempt to learn everything and always have it at the ready. There are
+exceptions such as high level theory/equations/etc. But if you have to learn a
+basic concept before using the higher one, you couldn&rsquo;t plan on what higher
+level concept you needed. Competition for limited resources. Not much has
+changed in the world regarding that basic tenet of existence.</p>
+
+<p>So what&rsquo;s the point? Higher education isn&rsquo;t job training. It&rsquo;s teaching folks
+how to think. Becoming a better thinker has its own intrinsic value. Getting a
+major in a field focuses that thinking in a particular subject area. But
+thinking isn&rsquo;t job training. And that&rsquo;s lucky for those getting an education.</p>
+
+<p>However, it&rsquo;s a gateway drug. I made an error in choosing my undergrad,
+Political Science. Not because I don&rsquo;t love the subject, but ultimately my path
+in life changed enough that the degree wouldn&rsquo;t be put to use in my career.
+Except that I focused heavily on writing in my undergrad and I&rsquo;m an effective
+communicator. I work in technology now, at a software company. And though I
+completed a year of classes for an MBA, I&rsquo;m currently enrolled and seeking my
+second Bachelor&rsquo;s - in Computer Science. I&rsquo;m not positive I&rsquo;ll complete the MBA,
+but as I began with Political Science and intended to pursue a JD/MBA, now I
+have altered my path to pursue a BS in Computer Science and potentially an MBA
+as well.</p>
+
+<p>Education is intrinsically valuable. It is also a means to an end and we
+therefore often view it as onerous or irrational in some cases. But our
+collective goal should be to increase knowledge and understanding, not merely
+technical merits. The latter are important, but they&rsquo;re not enough. Those
+committed to attaining credentials fit the post&rsquo;s title. B.A. then M.B.A. and
+concurrent B.S. That&rsquo;s definitely beginning a collection&hellip;</p>
+]]></content>
+  </entry>
+  
+</feed>

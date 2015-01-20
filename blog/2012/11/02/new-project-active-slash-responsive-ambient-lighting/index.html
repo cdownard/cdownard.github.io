@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>New Project - Active/Responsive Ambient Lighting - Code Quorum</title>
+  <meta name="author" content="Christopher Downard">
+
+  
+  <meta name="description" content="New Project - Active/Responsive Ambient Lighting written in ambeint, code, fun, programming, project, python, video So, while browsing the wonderful &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://cdownard.github.io/blog/2012/11/02/new-project-active-slash-responsive-ambient-lighting">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Code Quorum" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-58697952-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+  <body>
+    <a href="/" class="home-icon">
+      <img src="/images/home.png"/>
+    </a>
+
+    <article role="article" class="full-single-article">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>New Project - Active/Responsive Ambient Lighting</h1>
+        <div class="meta">
+          written 
+
+
+
+
+
+
+
+
+  
+
+
+
+<time datetime="2012-11-02T10:00:00-06:00" pubdate data-updated="true"></time>
+          
+
+in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/ambeint/'>ambeint</a>, <a class='category' href='/blog/categories/code/'>code</a>, <a class='category' href='/blog/categories/fun/'>fun</a>, <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/project/'>project</a>, <a class='category' href='/blog/categories/python/'>python</a>, <a class='category' href='/blog/categories/video/'>video</a>
+  
+</span>
+
+
+        </div>
+        <p>So, while browsing the wonderful web one day recently a friend of mine,
+<a href="https://plus.google.com/109744469121910551000/posts">Clint Shuman</a>, sent me a
+link to an RGB LED grid that acted as a
+<a href="http://www.youtube.com/watch?v=AP2fJgS-b8g">responsive ambient light for a TV</a>.
+Awesome right? I love stuff like this. It&rsquo;s simple, but it really adds an
+interesting touch to movie night. Naturally, we immediately set out to program
+our own version.</p>
+
+<!--more-->
+
+
+<p>The concept of active ambience is pretty interesting. The fire in that Avatar
+video link really enhances the feeling of having that torch flipped around. I
+definitely like that but there are a few limitations to this implementation of
+ambipi.</p>
+
+<p>First, it is Windows only. Although Windows is a perfectly pervasive and
+acceptable OS, it is not the only one - nor is it frequently the choice of my
+media enthusiasts. A home theater build using Linux is often a less expensive
+and adaptable solution. Further, the limitation of using XBMC that is specially
+compiled for this feature limits the playing pool to a release cycle based on
+this feature. One can&rsquo;t simply update to the latest and greatest XBMC the
+whenever they please (ambipi extensions, not boblight for those thinking of it).</p>
+
+<p>Which leads to the main hurdle: what about active ambience for other uses of
+the machine? VLC? Video conferencing? And the list continues. I want a solution
+that works with the display output and not only one application (although it has
+plenty of extensions). Adalight and others certainly have achieved this, but I
+would like to solve the problem in python and make it as cross platform/device
+as possible with additional configuration. Ultimately, how nifty would this type
+of thing be on displays, at trade shows, etc? Pretty eye catching.</p>
+
+<p>So enter python and some good fun playing with websockets to test the results. I
+don&rsquo;t have any LEDs to plug into my <a href="http://raspberrypi.org">Raspberry Pi</a>, so
+Clint and I setup a cherrypy server with a websocket to communicate back to the
+server. The webpage has a configurable grid of squares. Although we started with
+a 3x2 grid, we have moved on to a 5x3 as we feel it&rsquo;ll produce a better ambience.
+The test with 8x8 went well but for now I just want to focus on getting a basic
+setup working flawlessly. Originally we made a full grid with all pieces of the
+screen updating (that is, all 15 boxes in a 5x3) but then decided to do a
+perimeter only since we won&rsquo;t have LEDs in the center behind the display. A
+perimeter of boxes on a 5x3 results in a 12-count. The grid generation algorithm
+was changed to simply build a full row if it was the first or last row and since
+the algorithm is only run once, there&rsquo;s no performance hit.</p>
+
+<p>At first, we were at about 8 fps using screencaptures for each individual grid.
+This is super slow (200-300 millisecond response time based on grid size). So we
+changed the algorithm to capture the screen once and then resize it before
+sending it off to be analyzed by bounding box. This significantly improved
+performance and currently we&rsquo;re around 15-20 fps depending on how tempermental my
+CPU is feeling. Oddly my computer at work runs at about 45 ms pretty consistently
+while at home I&rsquo;m more consistently in the 80-100 ms range. I still haven&rsquo;t
+figured out why that is, but I did just upgrade to Windows 8 so maybe there are
+some issues I haven&rsquo;t found yet relating to that (work is Windows XP).</p>
+
+<p>Ultimately, I&rsquo;d like to move to the win32api and see if I can get any improvement
+over the Python Imaging Library (PIL). For linux, we currently have GTK being
+used. It&rsquo;s possible we&rsquo;ll go to native C and use X to grab the window if needed,
+but we&rsquo;ll need to run some tests. GTK is staying pretty consistent with where PIL
+is (45 ms). I thought GTK would be far faster, but perhaps there&rsquo;s room for
+improvement with the algorithm.</p>
+
+<p>The current plan (for me, Clint will use an Arduino) is to have my computer
+serving the image data over UDP to a Raspberry pi. Alternatively, could leave the
+Pi plugged in but that does involve the limitation of putting the computer next
+to the pi and therefore next to the tv. I don&rsquo;t currently have any spare
+computers lying around so a network method is preferable.</p>
+
+
+        <hr class="divider-short"/>
+
+        
+        <section>
+          <h1>Comments</h1>
+          <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+        </section>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+<hr class="divider-short"/>
+
+<div class="archive-link">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        
+          <a class="pull-left" href="/blog/2012/10/28/learning-c/" title="Previous Post: Learning C">&laquo; Previous: Learning C</a>
+        
+
+        
+          <a class="pull-right" href="/blog/2013/01/31/windows-8-good/" title="Next Post: Windows 8: Good">Next: Windows 8: Good &raquo;</a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="her-row">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1">
+  <a href="/"><h4>Home</h4></a>
+</div>
+
+<div class="col-md-2">
+  <div class="social-icon-list">
+    
+    <a href="https://twitter.com/chrisdownard"><img src="/images/glyphicons_social_31_twitter.png"/></a>
+    
+
+    
+    <a href="https://github.com/cdownard"><img src="/images/glyphicons_social_21_github.png"/></a>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="pull-right">
+  <h4>Powered by <a href="http://octopress.org/">Octopress</a>. Designed by <a href="http://AdrianArtiles.com">Adrian Artiles</a>.</h4>
+</div>
+
+
+    </div>
+  </div>
+</footer>
+
+    
+      
+
+<script type="text/javascript">
+      var disqus_shortname = 'codequorum';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://cdownard.github.io/blog/2012/11/02/new-project-active-slash-responsive-ambient-lighting/';
+        var disqus_url = 'http://cdownard.github.io/blog/2012/11/02/new-project-active-slash-responsive-ambient-lighting/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+    
+  </body>
+</html>

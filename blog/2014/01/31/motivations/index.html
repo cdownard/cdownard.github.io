@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Motivations, Projects, and Resolutions - Code Quorum</title>
+  <meta name="author" content="Christopher Downard">
+
+  
+  <meta name="description" content="Motivations, Projects, and Resolutions written in development, planning, programming, project The new year is a time to reflect and decide on what &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://cdownard.github.io/blog/2014/01/31/motivations">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Code Quorum" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-58697952-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+  <body>
+    <a href="/" class="home-icon">
+      <img src="/images/home.png"/>
+    </a>
+
+    <article role="article" class="full-single-article">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>Motivations, Projects, and Resolutions</h1>
+        <div class="meta">
+          written 
+
+
+
+
+
+
+
+
+  
+
+
+
+<time datetime="2014-01-31T09:00:00-07:00" pubdate data-updated="true"></time>
+          
+
+in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/development/'>development</a>, <a class='category' href='/blog/categories/planning/'>planning</a>, <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/project/'>project</a>
+  
+</span>
+
+
+        </div>
+        <p>The new year is a time to reflect and decide on what to focus your energy. Or,
+in some instances, reflect on what projects you didn&rsquo;t finish. I like to look
+back and evaluate what projects from the past year deserve more energy, deserve
+to be let go, or need more development before they&rsquo;re viable.</p>
+
+<!--more-->
+
+
+<p>I keep a small notebook that fits comfortable in my jeans pocket for writing
+down ideas. Some I&rsquo;ll flesh out and try to find the minimum viable product (MVP).
+Some I simply like to flesh out and think about the &lsquo;cool&rsquo; factor. Things that
+increase cool factor:</p>
+
+<h3>Real-time</h3>
+
+<blockquote><p>&#8220;Post and response &#8230; is kind of boring. I think most people have become<br/>accustomed to see the spinning wheel load your results.&#8221;<br/>This has got to be a trendy thing, but it also makes software so nifty these<br/>days. Things like &#8216;real-time collaboration&#8217; or sharing or feedback. They all<br/>make software feel not only faster but engaging. Post and response, where you<br/>post data and are then rendered a results view, is kind of boring. I think most<br/>people have become accustomed to see the spinning wheel load your results.</p></blockquote>
+
+
+<p>I know at my day job I see that wheel all the time when I&rsquo;m doing tests. We&rsquo;re
+in the midst of launching a new version of our UI for the main part of our
+product and while it&rsquo;s beautiful and super fast, there&rsquo;s one part of the
+software that actually now takes longer to load - the piece that hooks into a
+government integration (of course). The overhaul didn&rsquo;t cause this per se. It
+was very well designed and load times across the board are reduced. But its new
+architecture requires a certain flow and as such, all operations for this one
+piece have to be re-rendered frequently. To ensure data integrity on what&rsquo;s
+coming back from the government service, I have to query them (the government)
+to get the latest results. This all occurs in real-time but the service is slow
+and unfortunately doesn&rsquo;t provide a fast way to get the relevant data. It was
+totally over-engineered. At some point I plan to change that, but for now I&rsquo;m
+kind of stuck. Some of the load times have doubled in the new system for this
+one piece.</p>
+
+<h3>Social</h3>
+
+<p>&ldquo;Social also means having a community. If you build a community, meaning forming
+a common culture around a topic, idea, belief, etc., then you&rsquo;re more likely to
+attract more people from that pool.&rdquo;
+Ideas these days tend to have some social component. Sharing an achievement in a
+weight loss tracker or a ride you just completed. Not to mention the calls to
+action to share that you&rsquo;re using a given product. Moreover, it&rsquo;s almost more
+popular now to use social authentication instead of having a database containing
+usernames and passwords that you have to protect. This makes sense - now the
+concern is not on you if the password store is compromised, you simply send out
+an alert email to your affected customers saying &ldquo;due to the recent &hellip; at
+<social network>, we&rsquo;d recommend you change your password to protect your data
+at our site. Please click <here> to view details about the announcement from
+<social network>.&rdquo;</p>
+
+<p>Social also means havinthem g a community. If you build a community, meaning
+forming a common culture around a topic, idea, belief, etc., then you&rsquo;re more
+likely to attract more people from that pool. Word of mouth campaigns are more
+budget friendly for you than spending time and money trying to advertise your
+project to form communities of one. It&rsquo;s always a good idea to test your idea
+against the possibility of building a community with it. Not all ideas can work
+that way - some are targeting very specific use cases and that&rsquo;s ok.</p>
+
+<h3>Feedback</h3>
+
+<p>&ldquo;Feedback isn&rsquo;t just about getting criticism and praise from your users - it&rsquo;s
+about getting data on how they use the product.&rdquo;
+Having an excellent feedback system users want to utilize instead of avoid is
+valuable. For one, your feedback loop is tight and you understand the people
+using your product. Getting flooded about feature X having a bug or needing new
+functionality? Awesome. No money just went out the door to get a 1 in 50 response
+rate. Fix it and fix it fast and tell your users how much you appreciate their
+help in making the product they use better. This reinforces the community idea
+mentioned above. Empower users to be able to provide you feedback in an
+unobstrusive way - don&rsquo;t hound them. Let them choose.</p>
+
+<p>Feedback isn&rsquo;t just about getting criticism and praise from your users - it&rsquo;s
+about getting data on how they use the product. Think about analytics early. When
+your users creates a new item using your service and sends an invite through the
+service to a friend&rsquo;s email, track it. And track whether that friend signed up.
+Now you&rsquo;ve got analytics on conversion rates from first-party referrals.</p>
+
+<h2>Motivations and Resolutions</h2>
+
+<p>This year I have some simple goals:</p>
+
+<h3>1. Write more blog posts</h3>
+
+<p>I need to be more consistent. I have a number of article topics I have written
+down in my notebook I would like to complete. I keep listening to podcasts that
+mention you have to just sit down and write to form the habit, and that&rsquo;s
+something I need to do. I am out of practice at that. Now when I sit down at my
+computer at night, once my son is asleep and the house is quieter, I tend to go
+straight to projects. I need to start scheduling time to write at least once a
+week, specifically in the realm of tutorials or sharing experiences about how I
+solved a particular problem.</p>
+
+<h3>2. Engage on Twitter</h3>
+
+<p>I was one of those that used to make fun of Twitter&rsquo;s core concept - share in a
+limited character amount. I tend to be verbose. Sometimes overly verbose. I took
+almost every writing intensive course offered in the political science department
+at the University of New Hampshire because writing several papers a week was easy
+for me - I could always crank out more words. Twitter limits that and forces you
+to focus tightly on what you want to communicate. I&rsquo;ve been using it for a few
+months more actively and I find wonderful and copious amounts of information on
+topics that interest me. I&rsquo;d like to build a bigger network there of like-minded
+people so that I can continue to tap that resource for inspiration, help, and the
+comfort of being of member of that community.</p>
+
+<h3>3. Pay It Forward</h3>
+
+<p>I have received help from a number of community members as I have learned what I
+know. My formal CS education is extremely limited. I&rsquo;m currently completing
+pre-requisites to enroll in a Masters in CS program, but I earned my software
+developer position as a self-taught programmer. This means I&rsquo;ve accumulated a
+lot of knowledge by the generosity of others. So I&rsquo;d like to return the favor. I
+plan to be making posts discussing implementation strategies, coding tutorials,
+and some design information.</p>
+
+<h3>4. Release a Web Application to the Public</h3>
+
+<p>I have been working on an application for a few months, mostly figuring out what
+I want it to do and doodling on my
+<a href="http://www.uistencils.com/products/responsive-sketch-pad">sketchpads</a>, but I&rsquo;ve
+been coding in small bits here and there over the past month. I&rsquo;d like to finish
+this application and get it out to the public. Mainly, I&rsquo;d like to be a user on
+this site. So I believe others will want to as well.</p>
+
+<p>I hope those reading this reflected on the last year and have come to decisions
+about what they&rsquo;d like to do in 2014. If you&rsquo;d like to talk to me about code, or
+hire me as a <a href="http://bluesuntechnologies.com/">freelancer</a>, please contact me on
+<a href="https://twitter.com/chrisdownard">Twitter</a>,
+<a href="https://plus.google.com/+ChristopherDownard/">Google+</a>, or at my
+<a href="http://bluesuntechnologies.com/contact/">website</a>.</p>
+
+
+        <hr class="divider-short"/>
+
+        
+        <section>
+          <h1>Comments</h1>
+          <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+        </section>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+<hr class="divider-short"/>
+
+<div class="archive-link">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        
+          <a class="pull-left" href="/blog/2013/11/22/ruby-on-rails-im-kind-of-late-to-the-game/" title="Previous Post: Ruby on Rails - I'm kind of late to the game">&laquo; Previous: Ruby on Rails - I&#8217;m kind of late to the game</a>
+        
+
+        
+          <a class="pull-right" href="/blog/2014/03/07/computer-science-degrees-whats-lacking/" title="Next Post: Computer Science Degrees - What's Lacking">Next: Computer Science Degrees - What&#8217;s Lacking &raquo;</a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="her-row">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1">
+  <a href="/"><h4>Home</h4></a>
+</div>
+
+<div class="col-md-2">
+  <div class="social-icon-list">
+    
+    <a href="https://twitter.com/chrisdownard"><img src="/images/glyphicons_social_31_twitter.png"/></a>
+    
+
+    
+    <a href="https://github.com/cdownard"><img src="/images/glyphicons_social_21_github.png"/></a>
+    
+
+    
+
+    
+  </div>
+</div>
+
+<div class="pull-right">
+  <h4>Powered by <a href="http://octopress.org/">Octopress</a>. Designed by <a href="http://AdrianArtiles.com">Adrian Artiles</a>.</h4>
+</div>
+
+
+    </div>
+  </div>
+</footer>
+
+    
+      
+
+<script type="text/javascript">
+      var disqus_shortname = 'codequorum';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://cdownard.github.io/blog/2014/01/31/motivations/';
+        var disqus_url = 'http://cdownard.github.io/blog/2014/01/31/motivations/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+    
+  </body>
+</html>

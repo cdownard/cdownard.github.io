@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Ide | Code Quorum]]></title>
+  <link href="http://cdownard.github.io/blog/categories/ide/atom.xml" rel="self"/>
+  <link href="http://cdownard.github.io/"/>
+  <updated>2015-01-20T08:06:17-07:00</updated>
+  <id>http://cdownard.github.io/</id>
+  <author>
+    <name><![CDATA[Christopher Downard]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Initial Impressions of Light Table IDE]]></title>
+    <link href="http://cdownard.github.io/blog/2013/05/06/initial-impressions-of-light-table-ide/"/>
+    <updated>2013-05-06T10:00:00-06:00</updated>
+    <id>http://cdownard.github.io/blog/2013/05/06/initial-impressions-of-light-table-ide</id>
+    <content type="html"><![CDATA[<p><a href="http://lighttable.com/">Light Table</a> is a programming integrated development
+environment (IDE). But it&rsquo;s a little different compared to what is currently out
+there. The author, <a href="http://plus.google.com/114990036229851937142">+Chris
+Granger</a>, has focused on what we
+are creating rather than getting to the creation. If that concept doesn&rsquo;t quite
+make sense in your head, don&rsquo;t worry. It&rsquo;s visual. Think real-time flow of your
+program. If you want to watch how a value changes as it moves through your
+program you can see it in real-time. Bret Victor gave a great talk on the idea
+called <a href="https://www.youtube.com/watch?v=PUv66718DII">Inventing on Principle</a>.
+Light Table extends this concept and the roadmap for development has a lot of
+nifty fun features of programmers.</p>
+
+<!--more-->
+
+
+<p>I love UX/UI. Especially when it makes stuff easier/faster/better. Light Table
+is basically IDE porn.</p>
+
+<p>I don&rsquo;t think I can really describe it better than that, but I&rsquo;ll try to explain
+some things I like and where it has some room for improvement. I have been using
+it as a primary editor for VB.Net, Python (Django), and a little JavaScript for
+nearly a week. VB.Net is my day job, the others are for projects at home. For
+the most part I work in <a href="http://www.sublimetext.com">Sublime Text 2</a>, which is a
+fantastic editor. If you haven&rsquo;t checked it out before the go grab it and start
+playing. It&rsquo;s extensible, built in Python, and has tons of plugins available.
+And yes, I write VB in it. It supports VB Script which is good enough. I switch
+back and forth between Visual Studio and Sublime Text 2 depending on what I&rsquo;m
+working on.</p>
+
+<p>Welcome Screen
+<img class="left" src="/images/light_table_01.png" title="Light Table Welcome Screen" ></p>
+
+<p>So clearly minimalism is heavily at play here. I&rsquo;m a fan of minimalism, so this
+works for me. What you see at the top are tabs. They&rsquo;re unobtrusive. You&rsquo;ll
+notice I&rsquo;m in full screen mode here, or as I like to call it: Stop messaging me
+on Google Talk mode. You can hit <code>ctrl + enter</code> and it pops up the command
+prompt so you can be handsfree. Which I like. Granger is a fan of VIM so there
+are vim bindings that can be enabled. But I like his theory that the future of
+editing code can&rsquo;t always just be that the vim, emacs, etc style of only text
+visualization is the answer forever.</p>
+
+<p>Command Bar</p>
+
+<p><img class="left" src="/images/light_table_02.png" title="Command Bar via ctrl + enter" ></p>
+
+<p>The UI is clean and simple. After all, you don&rsquo;t need a ton of features to get
+your work done. The workspace tab allows you to bring files into the &ldquo;workspace&rdquo;
+which is kind of like open folder for Sublime Text 2. What&rsquo;s different is that
+you can add files or folders to this workspace from all over the place. Then
+those files all show up on the quick open stuff under navigation which we&rsquo;ll get
+to.</p>
+
+<p>Light Table Workspace</p>
+
+<p><img class="left" src="/images/light_table_03.png" title="Light Table Workspace" ></p>
+
+<p>So any of those files on the left, or if you have multiple folders can be
+removed from the workspace without affecting your files on disk. Handy feature.
+But also, you can just add another folder or files to the workspace. And
+everything is available to open. Double-clicking any of the files on the left
+will open them for editing in the current tabset on the right. Tabsets are like
+groups of tabs. You can subdivide so you can have multiple tabsets each with
+multiple tabs.</p>
+
+<p>From there we can move on to the navigate tab. It basically shows you all files
+in all folders. Let&rsquo;s look at a django project.</p>
+
+<p>Light Table Navigate</p>
+
+<p><img class="left" src="/images/light_table_04.png" title="Light Table Navigate" ></p>
+
+<p>One of the great things about more and more programs is the support for <a href="http://en.wikipedia.org/wiki/Approximate_string_matching">fuzzy
+search</a>. This makes
+using command bars and file openers incredibly easy but it also makes search in
+general better regarding programming languages. You may have 10 methods with Get
+as the beginning like GetMyFoo, GetNewBars, etc. But if you want GetMyFoo, you
+can just search for Foo. Fuzzy search will find it. That concept can be expanded
+on drastically in practice and in different concepts (command bar for instance,
+file names, settings, and your code itself) and you get some pretty awesome
+results. I&rsquo;ve loved that in Sublime Text 2 and I&rsquo;m loving using it in Light
+Table.</p>
+
+<p>The default them is also pleasant for code. It&rsquo;s not terribly high contrast but I
+find it&rsquo;s easy on my eyes in a dark room. And let&rsquo;s be honest. We program in the
+dark a lot. But my other favorite monokai is on there and switching is a command
+and a few keystrokes away so I don&rsquo;t mind switching back and forth.</p>
+
+<p>Light Table Default Theme</p>
+
+<p><img class="left" src="/images/light_table_04.png" title="Light Table Navigate" ></p>
+
+<p>If you watch the videos you&rsquo;ll see some of the wonderful things Light Table can
+do, but I think the best thing going for it right now is the incredibly
+responsive development. I&rsquo;m not sure if +Chris Granger is working solo or if he
+has assembled a team, but I watched the repo on GitHub for issue tracking and
+I&rsquo;m getting a lot of mail which is Q&amp;A and feature suggestions and bug fixes. I
+love that part of it. I&rsquo;m actually learning more about the editor just by
+watching the &ldquo;issues&rdquo; emails come across.</p>
+
+<p>I think that&rsquo;s all I&rsquo;ll go into for now. I&rsquo;m using it as the IDE of choice for a
+Django project at the moment and it&rsquo;ll be interesting to see what ultimately I
+like and dislike at the end of that. Code Mirror&rsquo;s underlying editor has a few
+bugs with the syntax in VB, but I have a feeling some of the features the
+community requests will be easy to address once the plugin system is live, which
+is forthcoming in 0.5. I&rsquo;m already wondering if I can build out some Django tools
+for the editor, even though I&rsquo;m not sure what that would look like. It supports
+virtualenvs for python, although I haven&rsquo;t tried it. Django work means I&rsquo;m not
+really doing eval much unless I&rsquo;m just quickly testing pieces of a function.</p>
+
+<p>I&rsquo;ll post again once I have had the opportunity to really spend a lot of hours
+in it. For now, I really enjoy it. I miss some of the conveniences of Sublime
+Text 2, but they&rsquo;re not anything that can&rsquo;t be resolved. And for an alpha&hellip;this
+product has definitely caught my attention. I look at it and all I can think is
+how amazing this is going to be.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Development | Code Quorum]]></title>
+  <link href="http://cdownard.github.io/blog/categories/development/atom.xml" rel="self"/>
+  <link href="http://cdownard.github.io/"/>
+  <updated>2015-01-20T08:06:17-07:00</updated>
+  <id>http://cdownard.github.io/</id>
+  <author>
+    <name><![CDATA[Christopher Downard]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Motivations, Projects, and Resolutions]]></title>
+    <link href="http://cdownard.github.io/blog/2014/01/31/motivations/"/>
+    <updated>2014-01-31T09:00:00-07:00</updated>
+    <id>http://cdownard.github.io/blog/2014/01/31/motivations</id>
+    <content type="html"><![CDATA[<p>The new year is a time to reflect and decide on what to focus your energy. Or,
+in some instances, reflect on what projects you didn&rsquo;t finish. I like to look
+back and evaluate what projects from the past year deserve more energy, deserve
+to be let go, or need more development before they&rsquo;re viable.</p>
+
+<!--more-->
+
+
+<p>I keep a small notebook that fits comfortable in my jeans pocket for writing
+down ideas. Some I&rsquo;ll flesh out and try to find the minimum viable product (MVP).
+Some I simply like to flesh out and think about the &lsquo;cool&rsquo; factor. Things that
+increase cool factor:</p>
+
+<h3>Real-time</h3>
+
+<p><blockquote><p>&ldquo;Post and response &hellip; is kind of boring. I think most people have become<br/>accustomed to see the spinning wheel load your results.&rdquo;<br/>This has got to be a trendy thing, but it also makes software so nifty these<br/>days. Things like &lsquo;real-time collaboration&rsquo; or sharing or feedback. They all<br/>make software feel not only faster but engaging. Post and response, where you<br/>post data and are then rendered a results view, is kind of boring. I think most<br/>people have become accustomed to see the spinning wheel load your results.</p></blockquote></p>
+
+<p>I know at my day job I see that wheel all the time when I&rsquo;m doing tests. We&rsquo;re
+in the midst of launching a new version of our UI for the main part of our
+product and while it&rsquo;s beautiful and super fast, there&rsquo;s one part of the
+software that actually now takes longer to load - the piece that hooks into a
+government integration (of course). The overhaul didn&rsquo;t cause this per se. It
+was very well designed and load times across the board are reduced. But its new
+architecture requires a certain flow and as such, all operations for this one
+piece have to be re-rendered frequently. To ensure data integrity on what&rsquo;s
+coming back from the government service, I have to query them (the government)
+to get the latest results. This all occurs in real-time but the service is slow
+and unfortunately doesn&rsquo;t provide a fast way to get the relevant data. It was
+totally over-engineered. At some point I plan to change that, but for now I&rsquo;m
+kind of stuck. Some of the load times have doubled in the new system for this
+one piece.</p>
+
+<h3>Social</h3>
+
+<p>&ldquo;Social also means having a community. If you build a community, meaning forming
+a common culture around a topic, idea, belief, etc., then you&rsquo;re more likely to
+attract more people from that pool.&rdquo;
+Ideas these days tend to have some social component. Sharing an achievement in a
+weight loss tracker or a ride you just completed. Not to mention the calls to
+action to share that you&rsquo;re using a given product. Moreover, it&rsquo;s almost more
+popular now to use social authentication instead of having a database containing
+usernames and passwords that you have to protect. This makes sense - now the
+concern is not on you if the password store is compromised, you simply send out
+an alert email to your affected customers saying &ldquo;due to the recent &hellip; at
+<social network>, we&rsquo;d recommend you change your password to protect your data
+at our site. Please click <here> to view details about the announcement from
+<social network>.&rdquo;</p>
+
+<p>Social also means havinthem g a community. If you build a community, meaning
+forming a common culture around a topic, idea, belief, etc., then you&rsquo;re more
+likely to attract more people from that pool. Word of mouth campaigns are more
+budget friendly for you than spending time and money trying to advertise your
+project to form communities of one. It&rsquo;s always a good idea to test your idea
+against the possibility of building a community with it. Not all ideas can work
+that way - some are targeting very specific use cases and that&rsquo;s ok.</p>
+
+<h3>Feedback</h3>
+
+<p>&ldquo;Feedback isn&rsquo;t just about getting criticism and praise from your users - it&rsquo;s
+about getting data on how they use the product.&rdquo;
+Having an excellent feedback system users want to utilize instead of avoid is
+valuable. For one, your feedback loop is tight and you understand the people
+using your product. Getting flooded about feature X having a bug or needing new
+functionality? Awesome. No money just went out the door to get a 1 in 50 response
+rate. Fix it and fix it fast and tell your users how much you appreciate their
+help in making the product they use better. This reinforces the community idea
+mentioned above. Empower users to be able to provide you feedback in an
+unobstrusive way - don&rsquo;t hound them. Let them choose.</p>
+
+<p>Feedback isn&rsquo;t just about getting criticism and praise from your users - it&rsquo;s
+about getting data on how they use the product. Think about analytics early. When
+your users creates a new item using your service and sends an invite through the
+service to a friend&rsquo;s email, track it. And track whether that friend signed up.
+Now you&rsquo;ve got analytics on conversion rates from first-party referrals.</p>
+
+<h2>Motivations and Resolutions</h2>
+
+<p>This year I have some simple goals:</p>
+
+<h3>1. Write more blog posts</h3>
+
+<p>I need to be more consistent. I have a number of article topics I have written
+down in my notebook I would like to complete. I keep listening to podcasts that
+mention you have to just sit down and write to form the habit, and that&rsquo;s
+something I need to do. I am out of practice at that. Now when I sit down at my
+computer at night, once my son is asleep and the house is quieter, I tend to go
+straight to projects. I need to start scheduling time to write at least once a
+week, specifically in the realm of tutorials or sharing experiences about how I
+solved a particular problem.</p>
+
+<h3>2. Engage on Twitter</h3>
+
+<p>I was one of those that used to make fun of Twitter&rsquo;s core concept - share in a
+limited character amount. I tend to be verbose. Sometimes overly verbose. I took
+almost every writing intensive course offered in the political science department
+at the University of New Hampshire because writing several papers a week was easy
+for me - I could always crank out more words. Twitter limits that and forces you
+to focus tightly on what you want to communicate. I&rsquo;ve been using it for a few
+months more actively and I find wonderful and copious amounts of information on
+topics that interest me. I&rsquo;d like to build a bigger network there of like-minded
+people so that I can continue to tap that resource for inspiration, help, and the
+comfort of being of member of that community.</p>
+
+<h3>3. Pay It Forward</h3>
+
+<p>I have received help from a number of community members as I have learned what I
+know. My formal CS education is extremely limited. I&rsquo;m currently completing
+pre-requisites to enroll in a Masters in CS program, but I earned my software
+developer position as a self-taught programmer. This means I&rsquo;ve accumulated a
+lot of knowledge by the generosity of others. So I&rsquo;d like to return the favor. I
+plan to be making posts discussing implementation strategies, coding tutorials,
+and some design information.</p>
+
+<h3>4. Release a Web Application to the Public</h3>
+
+<p>I have been working on an application for a few months, mostly figuring out what
+I want it to do and doodling on my
+<a href="http://www.uistencils.com/products/responsive-sketch-pad">sketchpads</a>, but I&rsquo;ve
+been coding in small bits here and there over the past month. I&rsquo;d like to finish
+this application and get it out to the public. Mainly, I&rsquo;d like to be a user on
+this site. So I believe others will want to as well.</p>
+
+<p>I hope those reading this reflected on the last year and have come to decisions
+about what they&rsquo;d like to do in 2014. If you&rsquo;d like to talk to me about code, or
+hire me as a <a href="http://bluesuntechnologies.com/">freelancer</a>, please contact me on
+<a href="https://twitter.com/chrisdownard">Twitter</a>,
+<a href="https://plus.google.com/+ChristopherDownard/">Google+</a>, or at my
+<a href="http://bluesuntechnologies.com/contact/">website</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Initial Impressions of Light Table IDE]]></title>
+    <link href="http://cdownard.github.io/blog/2013/05/06/initial-impressions-of-light-table-ide/"/>
+    <updated>2013-05-06T10:00:00-06:00</updated>
+    <id>http://cdownard.github.io/blog/2013/05/06/initial-impressions-of-light-table-ide</id>
+    <content type="html"><![CDATA[<p><a href="http://lighttable.com/">Light Table</a> is a programming integrated development
+environment (IDE). But it&rsquo;s a little different compared to what is currently out
+there. The author, <a href="http://plus.google.com/114990036229851937142">+Chris
+Granger</a>, has focused on what we
+are creating rather than getting to the creation. If that concept doesn&rsquo;t quite
+make sense in your head, don&rsquo;t worry. It&rsquo;s visual. Think real-time flow of your
+program. If you want to watch how a value changes as it moves through your
+program you can see it in real-time. Bret Victor gave a great talk on the idea
+called <a href="https://www.youtube.com/watch?v=PUv66718DII">Inventing on Principle</a>.
+Light Table extends this concept and the roadmap for development has a lot of
+nifty fun features of programmers.</p>
+
+<!--more-->
+
+
+<p>I love UX/UI. Especially when it makes stuff easier/faster/better. Light Table
+is basically IDE porn.</p>
+
+<p>I don&rsquo;t think I can really describe it better than that, but I&rsquo;ll try to explain
+some things I like and where it has some room for improvement. I have been using
+it as a primary editor for VB.Net, Python (Django), and a little JavaScript for
+nearly a week. VB.Net is my day job, the others are for projects at home. For
+the most part I work in <a href="http://www.sublimetext.com">Sublime Text 2</a>, which is a
+fantastic editor. If you haven&rsquo;t checked it out before the go grab it and start
+playing. It&rsquo;s extensible, built in Python, and has tons of plugins available.
+And yes, I write VB in it. It supports VB Script which is good enough. I switch
+back and forth between Visual Studio and Sublime Text 2 depending on what I&rsquo;m
+working on.</p>
+
+<p>Welcome Screen
+<img class="left" src="/images/light_table_01.png" title="Light Table Welcome Screen" ></p>
+
+<p>So clearly minimalism is heavily at play here. I&rsquo;m a fan of minimalism, so this
+works for me. What you see at the top are tabs. They&rsquo;re unobtrusive. You&rsquo;ll
+notice I&rsquo;m in full screen mode here, or as I like to call it: Stop messaging me
+on Google Talk mode. You can hit <code>ctrl + enter</code> and it pops up the command
+prompt so you can be handsfree. Which I like. Granger is a fan of VIM so there
+are vim bindings that can be enabled. But I like his theory that the future of
+editing code can&rsquo;t always just be that the vim, emacs, etc style of only text
+visualization is the answer forever.</p>
+
+<p>Command Bar</p>
+
+<p><img class="left" src="/images/light_table_02.png" title="Command Bar via ctrl + enter" ></p>
+
+<p>The UI is clean and simple. After all, you don&rsquo;t need a ton of features to get
+your work done. The workspace tab allows you to bring files into the &ldquo;workspace&rdquo;
+which is kind of like open folder for Sublime Text 2. What&rsquo;s different is that
+you can add files or folders to this workspace from all over the place. Then
+those files all show up on the quick open stuff under navigation which we&rsquo;ll get
+to.</p>
+
+<p>Light Table Workspace</p>
+
+<p><img class="left" src="/images/light_table_03.png" title="Light Table Workspace" ></p>
+
+<p>So any of those files on the left, or if you have multiple folders can be
+removed from the workspace without affecting your files on disk. Handy feature.
+But also, you can just add another folder or files to the workspace. And
+everything is available to open. Double-clicking any of the files on the left
+will open them for editing in the current tabset on the right. Tabsets are like
+groups of tabs. You can subdivide so you can have multiple tabsets each with
+multiple tabs.</p>
+
+<p>From there we can move on to the navigate tab. It basically shows you all files
+in all folders. Let&rsquo;s look at a django project.</p>
+
+<p>Light Table Navigate</p>
+
+<p><img class="left" src="/images/light_table_04.png" title="Light Table Navigate" ></p>
+
+<p>One of the great things about more and more programs is the support for <a href="http://en.wikipedia.org/wiki/Approximate_string_matching">fuzzy
+search</a>. This makes
+using command bars and file openers incredibly easy but it also makes search in
+general better regarding programming languages. You may have 10 methods with Get
+as the beginning like GetMyFoo, GetNewBars, etc. But if you want GetMyFoo, you
+can just search for Foo. Fuzzy search will find it. That concept can be expanded
+on drastically in practice and in different concepts (command bar for instance,
+file names, settings, and your code itself) and you get some pretty awesome
+results. I&rsquo;ve loved that in Sublime Text 2 and I&rsquo;m loving using it in Light
+Table.</p>
+
+<p>The default them is also pleasant for code. It&rsquo;s not terribly high contrast but I
+find it&rsquo;s easy on my eyes in a dark room. And let&rsquo;s be honest. We program in the
+dark a lot. But my other favorite monokai is on there and switching is a command
+and a few keystrokes away so I don&rsquo;t mind switching back and forth.</p>
+
+<p>Light Table Default Theme</p>
+
+<p><img class="left" src="/images/light_table_04.png" title="Light Table Navigate" ></p>
+
+<p>If you watch the videos you&rsquo;ll see some of the wonderful things Light Table can
+do, but I think the best thing going for it right now is the incredibly
+responsive development. I&rsquo;m not sure if +Chris Granger is working solo or if he
+has assembled a team, but I watched the repo on GitHub for issue tracking and
+I&rsquo;m getting a lot of mail which is Q&amp;A and feature suggestions and bug fixes. I
+love that part of it. I&rsquo;m actually learning more about the editor just by
+watching the &ldquo;issues&rdquo; emails come across.</p>
+
+<p>I think that&rsquo;s all I&rsquo;ll go into for now. I&rsquo;m using it as the IDE of choice for a
+Django project at the moment and it&rsquo;ll be interesting to see what ultimately I
+like and dislike at the end of that. Code Mirror&rsquo;s underlying editor has a few
+bugs with the syntax in VB, but I have a feeling some of the features the
+community requests will be easy to address once the plugin system is live, which
+is forthcoming in 0.5. I&rsquo;m already wondering if I can build out some Django tools
+for the editor, even though I&rsquo;m not sure what that would look like. It supports
+virtualenvs for python, although I haven&rsquo;t tried it. Django work means I&rsquo;m not
+really doing eval much unless I&rsquo;m just quickly testing pieces of a function.</p>
+
+<p>I&rsquo;ll post again once I have had the opportunity to really spend a lot of hours
+in it. For now, I really enjoy it. I miss some of the conveniences of Sublime
+Text 2, but they&rsquo;re not anything that can&rsquo;t be resolved. And for an alpha&hellip;this
+product has definitely caught my attention. I look at it and all I can think is
+how amazing this is going to be.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,15 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://cdownard.github.io/blog/2014/03/07/computer-science-degrees-whats-lacking/</loc>
+    <lastmod>2014-03-07T09:00:00-07:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://cdownard.github.io/blog/2014/01/31/motivations/</loc>
+    <lastmod>2014-01-31T09:00:00-07:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://cdownard.github.io/blog/2013/11/22/ruby-on-rails-im-kind-of-late-to-the-game/</loc>
+    <lastmod>2013-11-22T09:00:00-07:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://cdownard.github.io/blog/2013/10/01/wysiwyg-editor-in-windows-forms-applications-leveraging-tinymce/</loc>
+    <lastmod>2013-10-01T10:00:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://cdownard.github.io/blog/2013/05/06/initial-impressions-of-light-table-ide/</loc>
+    <lastmod>2013-05-06T10:00:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://cdownard.github.io/blog/2013/01/31/windows-8-good/</loc>
+    <lastmod>2013-01-31T09:00:00-07:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://cdownard.github.io/blog/2012/11/02/new-project-active-slash-responsive-ambient-lighting/</loc>
+    <lastmod>2012-11-02T10:00:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://cdownard.github.io/blog/2012/10/28/learning-c/</loc>
+    <lastmod>2012-10-28T10:00:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://cdownard.github.io/blog/2012/09/23/higher-education-is-a-gateway-drug/</loc>
+    <lastmod>2012-09-23T10:00:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://cdownard.github.io/</loc>
+    <lastmod>2015-01-20T08:06:17-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>http://cdownard.github.io/blog/archives/</loc>
-    <lastmod>2015-01-06T15:15:42-07:00</lastmod>
+    <lastmod>2015-01-20T08:06:17-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://cdownard.github.io/</loc>
-    <lastmod>2015-01-06T15:15:42-07:00</lastmod>
+    <loc>http://cdownard.github.io/posts/</loc>
+    <lastmod>2015-01-20T08:06:17-07:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
   </url>
 </urlset>

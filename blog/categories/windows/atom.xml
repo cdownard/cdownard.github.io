@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Windows | Code Quorum]]></title>
+  <link href="http://cdownard.github.io/blog/categories/windows/atom.xml" rel="self"/>
+  <link href="http://cdownard.github.io/"/>
+  <updated>2015-01-20T08:06:17-07:00</updated>
+  <id>http://cdownard.github.io/</id>
+  <author>
+    <name><![CDATA[Christopher Downard]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Windows 8: Good]]></title>
+    <link href="http://cdownard.github.io/blog/2013/01/31/windows-8-good/"/>
+    <updated>2013-01-31T09:00:00-07:00</updated>
+    <id>http://cdownard.github.io/blog/2013/01/31/windows-8-good</id>
+    <content type="html"><![CDATA[<p>I&rsquo;m just going to admit it up front: I am a complete sucker for a good UI. UX is
+important as well but if you give me a really ugly UI and say &ldquo;But the UX is
+amazing!&rdquo; I&rsquo;m less likely to be interested. Love it, hate it, whatever, the new
+Windows style of interface is attractive. Live tiles are a clever method for
+content consumption that is far more interesting than a straight feed reader.
+Even though that&rsquo;s basically the purpose.</p>
+
+<!--more-->
+
+
+<p>Sure you can put whatever you want there, but essentially it&rsquo;s a feed. The ease
+of programming for the Windows 8 style of application is also welcome. Granted,
+I really don&rsquo;t know anything about XAML. I can mostly read what&rsquo;s going on but
+I&rsquo;m currently having to read up on what it is I want to do if I&rsquo;m not going to
+be dropping things in from the toolbox. But it&rsquo;s fun. And you get Visual Studio.</p>
+
+<p>I like Eclipse a lot. My Java class and C class both had me using Eclipse (IDE
+was optional but Eclipse was a natural choice) and I found myself productive in
+it and all that. But when it came to playing with Android, the experience felt
+extremely clunky. I know there are many that will disagree, and that&rsquo;s fine.
+Preference is subjective. Visual Studio feels streamlined. When I drive a car,
+gadgets are fun but I really only care if they enhance my driving experience. I
+don&rsquo;t need a million buttons to do things. I don&rsquo;t have to have volume control
+on my steering wheel, but it&rsquo;s handy. I don&rsquo;t need extensive configuration. My
+car&rsquo;s purpose is a point A to point B type of thing for me and I like to feel
+the drive. I feel the same about the tools I use to fulfill my role of code
+monkey.</p>
+
+<p>Visual Studio deploys easily between tests for Desktop (windows 8 store), Tablet,
+and Phone. The simulators are clean for tablet and phone. And you don&rsquo;t have to
+wait for what feels like an eternity for them to boot. That&rsquo;s my favorite part.</p>
+
+<p>As for the operating system itself, I don&rsquo;t understand all the complaints.
+Granted, I&rsquo;m an individual that hits the windows key and then immediately begins
+typing to get my desired program. I don&rsquo;t like having to run through context
+menus to find it. So for me to use Windows 8, I had almost no learning curve.
+Yes to get to my wireless settings I have to go through the charm bar. So what?
+Hide the stuff I don&rsquo;t need to see all the time. I&rsquo;m fine with that. I spend most
+of my time on the desktop. I really don&rsquo;t see the Start menu dash unless I&rsquo;m
+doing a search to find the program I want.</p>
+
+<p>This isn&rsquo;t some sort of colossal failure or a war on users. Why is it we idolize
+the screens we see on Star Trek and such and then when we&rsquo;re presented with
+something that moves more toward that direction we reject it?</p>
+
+<p>I&rsquo;ve never been a fan of the ribbon for Office, but I actually like it for
+Windows Explorer. New folder? Boom. Dedicated icon for that. Search filtering.
+Dedicated icons. I feel like it&rsquo;s an improvement. It adds a little bulk to the
+top of the window but it isn&rsquo;t an unwelcome feature.</p>
+
+<p>Windows 8 really shines with touch interaction though. I like the paradigm shift.
+The choice of blending tablet with desktop is nice because you can grab a tablet
+PC (that is, one running Windows 8, not WindowsRT) and have it on the couch
+while you&rsquo;re watching television, but then snap it in to whatever docking method
+your particular hardware supports and you&rsquo;re back to your usual mouse and
+keyboard. Love that.</p>
+]]></content>
+  </entry>
+  
+</feed>

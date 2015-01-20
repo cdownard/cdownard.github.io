@@ -1,16 +1,813 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Code Quorum]]></title>
   <link href="http://cdownard.github.io/atom.xml" rel="self"/>
   <link href="http://cdownard.github.io/"/>
-  <updated>2015-01-06T15:15:42-07:00</updated>
+  <updated>2015-01-20T08:06:17-07:00</updated>
   <id>http://cdownard.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Christopher Downard]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Computer Science Degrees - What's Lacking]]></title>
+    <link href="http://cdownard.github.io/blog/2014/03/07/computer-science-degrees-whats-lacking/"/>
+    <updated>2014-03-07T09:00:00-07:00</updated>
+    <id>http://cdownard.github.io/blog/2014/03/07/computer-science-degrees-whats-lacking</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been continuing to take classes despite working as a full-time developer. I
+work in the .Net world, but my heart is more in Python. Still, I wanted exposure
+to plenty of others and I&rsquo;m currently in my second class on C++.</p>
+
+<p>What I have noticed in the various courses I have taken at institutions of higher
+learning is that they don&rsquo;t teach anything remotely close to the real world. I
+know this is a common claim and people cry out against the undergraduate program
+not preparing people for the real world. I get that. But I have always dismissed
+them.</p>
+
+<!--more-->
+
+
+<p>Being a better, more rounded thinker is more important than job training, is it
+not? Surely it is. I&rsquo;m not sure why no one slapped me. I&rsquo;ve had that discussion a
+number of times with people. I should have been slapped. Now don&rsquo;t get me wrong.
+I value and love my education. I have a degree in Politics from the University of
+New Hampshire. I am versed in various literature and can hold discussions on a
+number of topics (at one point I could almost do so in French).</p>
+
+<p>But this is a false dichotomy. It&rsquo;s as if the premise only allows well-rounded
+education or job training. That&rsquo;s ridiculous.</p>
+
+<p>I believe what Computer Science majors need is less Assignment-based instruction
+and more Project-based instruction. Random assignments that are isolated from
+each other, meaning accomplishing one has no effect on accomplishing another,
+don&rsquo;t provide the type of reinforcement that maximizes the mind we need molded
+in academia. Completing a larger project with multiple parts is far more useful
+to the student. These parts interact with one another. One of the best lessons
+to learn early on is that changing code in one place can have small or large
+effects on other parts of code.</p>
+
+<p>It&rsquo;s difficult to learn that in assignments that are 50-150 lines. But if you&rsquo;re
+building on top of the product/project you&rsquo;re working on all semester, you will
+naturally run in to those types of consequences and suddenly your student will
+begin to think very differently. I value those that can think holistically about
+a product rather than the frustratingly common linear thinker that says to the
+team &ldquo;Well, I&rsquo;ll just change this and then it&rsquo;ll be fixed.&rdquo; I love it when I
+hear someone say &ldquo;Well, if we change that there could be implications to these
+other parts.&rdquo;</p>
+
+<p>Admittedly, I think there&rsquo;s a lot of cruft in undergraduate coursework these
+days. Taking art history doesn&rsquo;t make you a better thinker per se. You don&rsquo;t
+experience art in an art history class. You learn what you need to say about a
+particular painting/sculpture/etc. in order to demonstrate knowledge about the
+piece. We cannot say that a mathematics major is more well-rounded for taking
+such a course. Well-rounded according to whom? And how pompous to believe that
+one semester of being told what to think about paintings and what is meant to be
+conveyed by them makes an individual more well-rounded.</p>
+
+<p>There&rsquo;s value in education for the sake of education. I don&rsquo;t argue against that
+and in fact, as a serial student, I&rsquo;m quite fond of education for its own sake.
+However, the prototypical pedagogy associated with the usual assortment of
+subjects and course material falls short when it comes to Computer Science.
+Programming is a craft. <a href="http://norvig.com/21-days.html">It takes years to
+master</a>. There are many other disciplines where
+this is similar, so why not change the teaching style?</p>
+
+<p>Students experience a couple of introductory courses and then are expected to
+understand high level concepts. In my opinion, going through academia has the
+primary purpose of learning how to think which implicitly means application.
+Anyone who argues against that should be beaten with a stick. Socrates explored
+the meta, but he focused his knowledge on teaching and applying - even if the
+application was theoretical (see The Republic). If our goal is to teach people
+how to think, let&rsquo;s make use of the discipline. Sorting arrays is great. It&rsquo;s
+very helpful to understand a binary versus bubble sort and why one is faster or
+better in certain scenarios.</p>
+
+<p>But we&rsquo;re a community of people that build things. We command the electron to do
+our bidding. We engage in digital alchemy. We are the citizens of an industry
+governed by <a href="http://en.wikipedia.org/wiki/Moore%27s_law">Moore&rsquo;s law</a> and yet we
+tacitly accept that there&rsquo;s not a better way to gain an education in our medium?</p>
+
+<p>I reject that.</p>
+
+<p>Let&rsquo;s build better coursework by building projects with students. When a student
+ends a semester with a (probably) working application that has been built in
+stages with a decent feature list there is a sense of accomplishment and a
+demonstrable grasp of the concepts this project instilled.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Motivations, Projects, and Resolutions]]></title>
+    <link href="http://cdownard.github.io/blog/2014/01/31/motivations/"/>
+    <updated>2014-01-31T09:00:00-07:00</updated>
+    <id>http://cdownard.github.io/blog/2014/01/31/motivations</id>
+    <content type="html"><![CDATA[<p>The new year is a time to reflect and decide on what to focus your energy. Or,
+in some instances, reflect on what projects you didn&rsquo;t finish. I like to look
+back and evaluate what projects from the past year deserve more energy, deserve
+to be let go, or need more development before they&rsquo;re viable.</p>
+
+<!--more-->
+
+
+<p>I keep a small notebook that fits comfortable in my jeans pocket for writing
+down ideas. Some I&rsquo;ll flesh out and try to find the minimum viable product (MVP).
+Some I simply like to flesh out and think about the &lsquo;cool&rsquo; factor. Things that
+increase cool factor:</p>
+
+<h3>Real-time</h3>
+
+<blockquote><p>&#8220;Post and response &#8230; is kind of boring. I think most people have become<br/>accustomed to see the spinning wheel load your results.&#8221;<br/>This has got to be a trendy thing, but it also makes software so nifty these<br/>days. Things like &#8216;real-time collaboration&#8217; or sharing or feedback. They all<br/>make software feel not only faster but engaging. Post and response, where you<br/>post data and are then rendered a results view, is kind of boring. I think most<br/>people have become accustomed to see the spinning wheel load your results.</p></blockquote>
+
+
+<p>I know at my day job I see that wheel all the time when I&rsquo;m doing tests. We&rsquo;re
+in the midst of launching a new version of our UI for the main part of our
+product and while it&rsquo;s beautiful and super fast, there&rsquo;s one part of the
+software that actually now takes longer to load - the piece that hooks into a
+government integration (of course). The overhaul didn&rsquo;t cause this per se. It
+was very well designed and load times across the board are reduced. But its new
+architecture requires a certain flow and as such, all operations for this one
+piece have to be re-rendered frequently. To ensure data integrity on what&rsquo;s
+coming back from the government service, I have to query them (the government)
+to get the latest results. This all occurs in real-time but the service is slow
+and unfortunately doesn&rsquo;t provide a fast way to get the relevant data. It was
+totally over-engineered. At some point I plan to change that, but for now I&rsquo;m
+kind of stuck. Some of the load times have doubled in the new system for this
+one piece.</p>
+
+<h3>Social</h3>
+
+<p>&ldquo;Social also means having a community. If you build a community, meaning forming
+a common culture around a topic, idea, belief, etc., then you&rsquo;re more likely to
+attract more people from that pool.&rdquo;
+Ideas these days tend to have some social component. Sharing an achievement in a
+weight loss tracker or a ride you just completed. Not to mention the calls to
+action to share that you&rsquo;re using a given product. Moreover, it&rsquo;s almost more
+popular now to use social authentication instead of having a database containing
+usernames and passwords that you have to protect. This makes sense - now the
+concern is not on you if the password store is compromised, you simply send out
+an alert email to your affected customers saying &ldquo;due to the recent &hellip; at
+<social network>, we&rsquo;d recommend you change your password to protect your data
+at our site. Please click <here> to view details about the announcement from
+<social network>.&rdquo;</p>
+
+<p>Social also means havinthem g a community. If you build a community, meaning
+forming a common culture around a topic, idea, belief, etc., then you&rsquo;re more
+likely to attract more people from that pool. Word of mouth campaigns are more
+budget friendly for you than spending time and money trying to advertise your
+project to form communities of one. It&rsquo;s always a good idea to test your idea
+against the possibility of building a community with it. Not all ideas can work
+that way - some are targeting very specific use cases and that&rsquo;s ok.</p>
+
+<h3>Feedback</h3>
+
+<p>&ldquo;Feedback isn&rsquo;t just about getting criticism and praise from your users - it&rsquo;s
+about getting data on how they use the product.&rdquo;
+Having an excellent feedback system users want to utilize instead of avoid is
+valuable. For one, your feedback loop is tight and you understand the people
+using your product. Getting flooded about feature X having a bug or needing new
+functionality? Awesome. No money just went out the door to get a 1 in 50 response
+rate. Fix it and fix it fast and tell your users how much you appreciate their
+help in making the product they use better. This reinforces the community idea
+mentioned above. Empower users to be able to provide you feedback in an
+unobstrusive way - don&rsquo;t hound them. Let them choose.</p>
+
+<p>Feedback isn&rsquo;t just about getting criticism and praise from your users - it&rsquo;s
+about getting data on how they use the product. Think about analytics early. When
+your users creates a new item using your service and sends an invite through the
+service to a friend&rsquo;s email, track it. And track whether that friend signed up.
+Now you&rsquo;ve got analytics on conversion rates from first-party referrals.</p>
+
+<h2>Motivations and Resolutions</h2>
+
+<p>This year I have some simple goals:</p>
+
+<h3>1. Write more blog posts</h3>
+
+<p>I need to be more consistent. I have a number of article topics I have written
+down in my notebook I would like to complete. I keep listening to podcasts that
+mention you have to just sit down and write to form the habit, and that&rsquo;s
+something I need to do. I am out of practice at that. Now when I sit down at my
+computer at night, once my son is asleep and the house is quieter, I tend to go
+straight to projects. I need to start scheduling time to write at least once a
+week, specifically in the realm of tutorials or sharing experiences about how I
+solved a particular problem.</p>
+
+<h3>2. Engage on Twitter</h3>
+
+<p>I was one of those that used to make fun of Twitter&rsquo;s core concept - share in a
+limited character amount. I tend to be verbose. Sometimes overly verbose. I took
+almost every writing intensive course offered in the political science department
+at the University of New Hampshire because writing several papers a week was easy
+for me - I could always crank out more words. Twitter limits that and forces you
+to focus tightly on what you want to communicate. I&rsquo;ve been using it for a few
+months more actively and I find wonderful and copious amounts of information on
+topics that interest me. I&rsquo;d like to build a bigger network there of like-minded
+people so that I can continue to tap that resource for inspiration, help, and the
+comfort of being of member of that community.</p>
+
+<h3>3. Pay It Forward</h3>
+
+<p>I have received help from a number of community members as I have learned what I
+know. My formal CS education is extremely limited. I&rsquo;m currently completing
+pre-requisites to enroll in a Masters in CS program, but I earned my software
+developer position as a self-taught programmer. This means I&rsquo;ve accumulated a
+lot of knowledge by the generosity of others. So I&rsquo;d like to return the favor. I
+plan to be making posts discussing implementation strategies, coding tutorials,
+and some design information.</p>
+
+<h3>4. Release a Web Application to the Public</h3>
+
+<p>I have been working on an application for a few months, mostly figuring out what
+I want it to do and doodling on my
+<a href="http://www.uistencils.com/products/responsive-sketch-pad">sketchpads</a>, but I&rsquo;ve
+been coding in small bits here and there over the past month. I&rsquo;d like to finish
+this application and get it out to the public. Mainly, I&rsquo;d like to be a user on
+this site. So I believe others will want to as well.</p>
+
+<p>I hope those reading this reflected on the last year and have come to decisions
+about what they&rsquo;d like to do in 2014. If you&rsquo;d like to talk to me about code, or
+hire me as a <a href="http://bluesuntechnologies.com/">freelancer</a>, please contact me on
+<a href="https://twitter.com/chrisdownard">Twitter</a>,
+<a href="https://plus.google.com/+ChristopherDownard/">Google+</a>, or at my
+<a href="http://bluesuntechnologies.com/contact/">website</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby on Rails - I'm Kind of Late to the Game]]></title>
+    <link href="http://cdownard.github.io/blog/2013/11/22/ruby-on-rails-im-kind-of-late-to-the-game/"/>
+    <updated>2013-11-22T09:00:00-07:00</updated>
+    <id>http://cdownard.github.io/blog/2013/11/22/ruby-on-rails-im-kind-of-late-to-the-game</id>
+    <content type="html"><![CDATA[<p>Recently I started a new side project. This one I&rsquo;m going to finish all the way
+through. Like many people who enjoy programming as a profession and hobby, I
+tend to start a lot of projects where I learn something and move on. The project
+tends to serve its purpose and then I&rsquo;m able to tackle something bigger or that
+is more interesting to me at the moment.</p>
+
+<p>This idea is different. I want to use it on the regular. And I&rsquo;m sure others
+will too. So naturally I was ready to roll instantly and hit the ground running.
+Normally I work on a project with another person, +Clint Shuman, but he hasn&rsquo;t
+been as available lately since his wife recently gave birth to their son.</p>
+
+<!--more-->
+
+
+<p>Lately I&rsquo;ve been approaching all problems the same way: nail, meet hammer. I
+decided when approaching this one to try building a couple of things in two
+frameworks - django and rails. Rails has scaffolding, which is a lot of code I&rsquo;m
+probably going to replace, but I can get pieces up and going with CRUD almost
+instantly. This is really handy when I&rsquo;m just trying to establish relationships
+and see how things are going to work. Django is still quick with class-based
+views (CBV), but there&rsquo;s just something about how rails works that is nice.</p>
+
+<p>I told Clint I was learning rails and the first thing he said was &ldquo;Traitor.&rdquo; I
+admit to feeling that way somewhat. Python is a fantastic language. I can&rsquo;t help
+but wish I could combine the rails framework with Python. And Django is
+completely open-ended. Implement any app any way you want. Sure, there are
+conventions, but Python is certainly configuration first. Rails is pretty much
+the opposite. In fact, the saying that goes along with the framework is
+&ldquo;Convention over configuration.&rdquo; Since I don&rsquo;t know the language very well this
+doesn&rsquo;t bother me. Forcing me to do something a certain way is fine because I
+probably don&rsquo;t understand fully what&rsquo;s happening right now. It will be
+interesting to see how much I like this notion the longer I spend working with
+the framework.</p>
+
+<p>But for a beginner, Django can be difficult. The tutorials that are out there
+are ok, but not fantastic. It always seems like reading helper information on
+Django expects you to know a lot already. And that&rsquo;s just not realistic. Rails
+has been around for ten years now and is widely used because it became the
+popular thing to do. The plethora of tutorial and screencasts for it makes the
+prospect of learning it much easier.</p>
+
+<p>Still&hellip;I miss Python at night. I&rsquo;ll come home soon, Python. For now, I have a
+project I want to see completely through to finish. That is, hosted and live for
+everyone. And I&rsquo;m going to do the whole thing in Rails.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[WYSIWYG Editor in Windows Forms Applications - Leveraging TinyMCE]]></title>
+    <link href="http://cdownard.github.io/blog/2013/10/01/wysiwyg-editor-in-windows-forms-applications-leveraging-tinymce/"/>
+    <updated>2013-10-01T10:00:00-06:00</updated>
+    <id>http://cdownard.github.io/blog/2013/10/01/wysiwyg-editor-in-windows-forms-applications-leveraging-tinymce</id>
+    <content type="html"><![CDATA[<p>Recently I was tasked with working on creating a version 2.0 application for an internal tool we use at work. We have a team that creates web content for our clients and this application allows them to compose that web content. In the redesign, we decided it would be fantastic if people could use a simplified HTML editor to generate content for the prompts and various information we output on the web pages. Currently, individuals are required to know (read: ask others for help) the HTML and it makes for a frustrating experience in using something that doesn&rsquo;t actually expose the HTML to the end user. Those who are using the app shouldn&rsquo;t be required to understand block elements or how to open a link in a new window. It should be painless and inputting that content should be fast.</p>
+
+<!--more-->
+
+
+<p>Rather than forcing someone to use HTML tags, they should be able to highlight and toggle as if they were using a text editor. Well, I got as far as making the three buttons for bold, italic, and underline and realized I was reinventing the wheel. I had just added TinyMCE to our text areas for custom text our clients entered in our development environment. It was incredibly easy to use and it has a permissive license.</p>
+
+<p>TinyMCE Sample - <a href="http://www.tinymce.com/">http://www.tinymce.com/</a>
+Naturally, there had to be a way to implement TinyMCE inside a Windows form and save a lot of time creating monotonous string handling code. And of course there was.</p>
+
+<p>I recognize I&rsquo;m writing this tutorial when there are others that offer help (one I used for help) on getting this set up. The one I used for help is pretty much the information that&rsquo;s here. That was the only other tutorial I found that was worth while. If you get tired of reading my outline of the solution, go read that one. If you want to continue with me, then go get TinyMCE. I actually downloaded it and stored it to a local resource, but you could always just use the CDN if you want. I&rsquo;d recommend local.</p>
+
+<p>Once you have that done, let&rsquo;s start a visual studio project. I&rsquo;ll use Visual Basic for this example but the C# code is almost identical (add curly braces, stir, and call me in the morning).</p>
+
+<p>There are only 3 real pieces to this entire thing.</p>
+
+<p>Web browser control pointed at your local HTML file with the JavaScript stuff all in it
+A method to set the content inside the TinyMCE editor
+A method to get the content out of the TinyMCE editor
+Best part? The heavy lifting is all JavaScript in the HTML page. For those that found this page via a search engine, the short version is make a method in the JavaScript for getting and setting the content of TinyMCE. Then use your big boy programming language (just kidding, I love you JavaScript) to access that information. The reason you need the get and set methods is because you&rsquo;re probably going to be doing something with the content that&rsquo;s being filled in or displayed.</p>
+
+<p>In my case, I&rsquo;m pulling html content out of a database and shoving it in TinyMCE so non-technical folks can easily create styling for text. Once they&rsquo;re done, I invoke the get and then store the result back into the database.</p>
+
+<p>Ok, enough with details. Let&rsquo;s see the code you&rsquo;ll need to produce.
+HTML</p>
+
+<p>Replace the bold lettering with what you need.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;script </span><span class="na">type=</span><span class="s">&#39;text/javascript&#39;</span> <span class="na">src=</span><span class="s">&#39;file:///yourpath/tinymce/tinymce.min.js&#39;</span><span class="nt">&gt;&lt;/script&gt;</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;script </span><span class="na">type=</span><span class="s">&#39;text/javascript&#39;</span><span class="nt">&gt;</span>
+</span><span class='line'>    <span class="kd">function</span> <span class="nx">GetContent</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>        <span class="k">return</span> <span class="nx">tinymce</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;tinyMceEditor&#39;</span><span class="p">).</span><span class="nx">getContent</span><span class="p">();</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="kd">function</span> <span class="nx">SetContent</span><span class="p">(</span><span class="nx">htmlContent</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>        <span class="nx">tinymce</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;tinyMceEditor&#39;</span><span class="p">).</span><span class="nx">setContent</span><span class="p">(</span><span class="nx">htmlContent</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="nx">tinymce</span><span class="p">.</span><span class="nx">init</span><span class="p">({</span> <span class="nx">whole</span> <span class="nx">host</span> <span class="nx">of</span> <span class="nx">options</span> <span class="p">});</span>
+</span><span class='line'><span class="nt">&lt;/script&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;body&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;form</span> <span class="na">method=</span><span class="s">&#39;post&#39;</span><span class="nt">&gt;</span>
+</span><span class='line'>   <span class="nt">&lt;textarea</span> <span class="na">name=</span><span class="s">&#39;tinyMceEditor&#39;</span> <span class="na">cols=</span><span class="s">&#39;1&#39;</span> <span class="na">rows=</span><span class="s">&#39;1&#39;</span> <span class="na">style=</span><span class="s">&#39;width:100%; height:</span>
+</span><span class='line'><span class="s">100%&#39;</span><span class="nt">&gt;&lt;/textarea&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;/form&gt;</span>
+</span><span class='line'><span class="nt">&lt;/body&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>That&rsquo;s pretty much it. You&rsquo;d do well to add your usual html tags to it so it is recognized as html. But yeah. That&rsquo;s all the html it took to get working. The cool part is setting up the other set of code for this.</p>
+
+<p>Drop a web browser control on a form, tell it to navigate to your html doc. Awesome, TinyMCE loads right? So that&rsquo;s fantastic. But let&rsquo;s add the two methods it takes to get and set content. Which are crazy simple.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='vb.net'><span class='line'><span class="k">Public</span> <span class="k">Sub</span> <span class="nf">SetTinyMceContent</span><span class="p">(</span><span class="k">ByVal</span> <span class="n">htmlContent</span> <span class="ow">As</span> <span class="kt">String</span><span class="p">)</span>
+</span><span class='line'>   <span class="k">Dim</span> <span class="n">contents</span><span class="p">()</span> <span class="ow">As</span> <span class="kt">Object</span> <span class="o">=</span> <span class="p">{</span><span class="n">htmlContent</span><span class="p">}</span>
+</span><span class='line'>   <span class="n">TinyMceBrowser</span><span class="p">.</span><span class="n">Document</span><span class="p">.</span><span class="n">InvokeScript</span><span class="p">(</span><span class="s">&quot;SetContent&quot;</span><span class="p">,</span> <span class="n">contents</span><span class="p">)</span>
+</span><span class='line'><span class="k">End</span> <span class="k">Sub</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>In case it&rsquo;s not apparent, the TinyMceBrowser object is my browser control. Now the get content method.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='vb.net'><span class='line'><span class="k">Public</span> <span class="k">Sub</span> <span class="nf">GetTinyMceContent</span><span class="p">()</span>
+</span><span class='line'>   <span class="k">Dim</span> <span class="n">html</span> <span class="ow">As</span> <span class="kt">Object</span> <span class="o">=</span> <span class="n">TinyMceBrowser</span><span class="p">.</span><span class="n">Document</span><span class="p">.</span><span class="n">InvokeScript</span><span class="p">(</span><span class="s">&quot;GetContent&quot;</span><span class="p">)</span>
+</span><span class='line'>   <span class="k">Dim</span> <span class="n">content</span> <span class="ow">As</span> <span class="kt">String</span> <span class="o">=</span> <span class="n">html</span><span class="p">.</span><span class="n">ToString</span><span class="p">()</span>
+</span><span class='line'><span class="k">End</span> <span class="k">Sub</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>That&rsquo;s it. Now obviously you probably want the Get as a function that returns a value unless it&rsquo;s just going to run off and perform its procedure. But that&rsquo;s really all it takes. I have more code in these methods to perform stuff related to our database, but these two lines in each method are where the magic is happening.</p>
+
+<p>Ta da. Short. Sweet. Simple tutorial on how to bring some slick JavaScript text editor action to your Windows applications.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Initial Impressions of Light Table IDE]]></title>
+    <link href="http://cdownard.github.io/blog/2013/05/06/initial-impressions-of-light-table-ide/"/>
+    <updated>2013-05-06T10:00:00-06:00</updated>
+    <id>http://cdownard.github.io/blog/2013/05/06/initial-impressions-of-light-table-ide</id>
+    <content type="html"><![CDATA[<p><a href="http://lighttable.com/">Light Table</a> is a programming integrated development
+environment (IDE). But it&rsquo;s a little different compared to what is currently out
+there. The author, <a href="http://plus.google.com/114990036229851937142">+Chris
+Granger</a>, has focused on what we
+are creating rather than getting to the creation. If that concept doesn&rsquo;t quite
+make sense in your head, don&rsquo;t worry. It&rsquo;s visual. Think real-time flow of your
+program. If you want to watch how a value changes as it moves through your
+program you can see it in real-time. Bret Victor gave a great talk on the idea
+called <a href="https://www.youtube.com/watch?v=PUv66718DII">Inventing on Principle</a>.
+Light Table extends this concept and the roadmap for development has a lot of
+nifty fun features of programmers.</p>
+
+<!--more-->
+
+
+<p>I love UX/UI. Especially when it makes stuff easier/faster/better. Light Table
+is basically IDE porn.</p>
+
+<p>I don&rsquo;t think I can really describe it better than that, but I&rsquo;ll try to explain
+some things I like and where it has some room for improvement. I have been using
+it as a primary editor for VB.Net, Python (Django), and a little JavaScript for
+nearly a week. VB.Net is my day job, the others are for projects at home. For
+the most part I work in <a href="http://www.sublimetext.com">Sublime Text 2</a>, which is a
+fantastic editor. If you haven&rsquo;t checked it out before the go grab it and start
+playing. It&rsquo;s extensible, built in Python, and has tons of plugins available.
+And yes, I write VB in it. It supports VB Script which is good enough. I switch
+back and forth between Visual Studio and Sublime Text 2 depending on what I&rsquo;m
+working on.</p>
+
+<p>Welcome Screen
+<img class="left" src="http://cdownard.github.io/images/light_table_01.png" title="Light Table Welcome Screen" ></p>
+
+<p>So clearly minimalism is heavily at play here. I&rsquo;m a fan of minimalism, so this
+works for me. What you see at the top are tabs. They&rsquo;re unobtrusive. You&rsquo;ll
+notice I&rsquo;m in full screen mode here, or as I like to call it: Stop messaging me
+on Google Talk mode. You can hit <code>ctrl + enter</code> and it pops up the command
+prompt so you can be handsfree. Which I like. Granger is a fan of VIM so there
+are vim bindings that can be enabled. But I like his theory that the future of
+editing code can&rsquo;t always just be that the vim, emacs, etc style of only text
+visualization is the answer forever.</p>
+
+<p>Command Bar</p>
+
+<p><img class="left" src="http://cdownard.github.io/images/light_table_02.png" title="Command Bar via ctrl + enter" ></p>
+
+<p>The UI is clean and simple. After all, you don&rsquo;t need a ton of features to get
+your work done. The workspace tab allows you to bring files into the &ldquo;workspace&rdquo;
+which is kind of like open folder for Sublime Text 2. What&rsquo;s different is that
+you can add files or folders to this workspace from all over the place. Then
+those files all show up on the quick open stuff under navigation which we&rsquo;ll get
+to.</p>
+
+<p>Light Table Workspace</p>
+
+<p><img class="left" src="http://cdownard.github.io/images/light_table_03.png" title="Light Table Workspace" ></p>
+
+<p>So any of those files on the left, or if you have multiple folders can be
+removed from the workspace without affecting your files on disk. Handy feature.
+But also, you can just add another folder or files to the workspace. And
+everything is available to open. Double-clicking any of the files on the left
+will open them for editing in the current tabset on the right. Tabsets are like
+groups of tabs. You can subdivide so you can have multiple tabsets each with
+multiple tabs.</p>
+
+<p>From there we can move on to the navigate tab. It basically shows you all files
+in all folders. Let&rsquo;s look at a django project.</p>
+
+<p>Light Table Navigate</p>
+
+<p><img class="left" src="http://cdownard.github.io/images/light_table_04.png" title="Light Table Navigate" ></p>
+
+<p>One of the great things about more and more programs is the support for <a href="http://en.wikipedia.org/wiki/Approximate_string_matching">fuzzy
+search</a>. This makes
+using command bars and file openers incredibly easy but it also makes search in
+general better regarding programming languages. You may have 10 methods with Get
+as the beginning like GetMyFoo, GetNewBars, etc. But if you want GetMyFoo, you
+can just search for Foo. Fuzzy search will find it. That concept can be expanded
+on drastically in practice and in different concepts (command bar for instance,
+file names, settings, and your code itself) and you get some pretty awesome
+results. I&rsquo;ve loved that in Sublime Text 2 and I&rsquo;m loving using it in Light
+Table.</p>
+
+<p>The default them is also pleasant for code. It&rsquo;s not terribly high contrast but I
+find it&rsquo;s easy on my eyes in a dark room. And let&rsquo;s be honest. We program in the
+dark a lot. But my other favorite monokai is on there and switching is a command
+and a few keystrokes away so I don&rsquo;t mind switching back and forth.</p>
+
+<p>Light Table Default Theme</p>
+
+<p><img class="left" src="http://cdownard.github.io/images/light_table_04.png" title="Light Table Navigate" ></p>
+
+<p>If you watch the videos you&rsquo;ll see some of the wonderful things Light Table can
+do, but I think the best thing going for it right now is the incredibly
+responsive development. I&rsquo;m not sure if +Chris Granger is working solo or if he
+has assembled a team, but I watched the repo on GitHub for issue tracking and
+I&rsquo;m getting a lot of mail which is Q&amp;A and feature suggestions and bug fixes. I
+love that part of it. I&rsquo;m actually learning more about the editor just by
+watching the &ldquo;issues&rdquo; emails come across.</p>
+
+<p>I think that&rsquo;s all I&rsquo;ll go into for now. I&rsquo;m using it as the IDE of choice for a
+Django project at the moment and it&rsquo;ll be interesting to see what ultimately I
+like and dislike at the end of that. Code Mirror&rsquo;s underlying editor has a few
+bugs with the syntax in VB, but I have a feeling some of the features the
+community requests will be easy to address once the plugin system is live, which
+is forthcoming in 0.5. I&rsquo;m already wondering if I can build out some Django tools
+for the editor, even though I&rsquo;m not sure what that would look like. It supports
+virtualenvs for python, although I haven&rsquo;t tried it. Django work means I&rsquo;m not
+really doing eval much unless I&rsquo;m just quickly testing pieces of a function.</p>
+
+<p>I&rsquo;ll post again once I have had the opportunity to really spend a lot of hours
+in it. For now, I really enjoy it. I miss some of the conveniences of Sublime
+Text 2, but they&rsquo;re not anything that can&rsquo;t be resolved. And for an alpha&hellip;this
+product has definitely caught my attention. I look at it and all I can think is
+how amazing this is going to be.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Windows 8: Good]]></title>
+    <link href="http://cdownard.github.io/blog/2013/01/31/windows-8-good/"/>
+    <updated>2013-01-31T09:00:00-07:00</updated>
+    <id>http://cdownard.github.io/blog/2013/01/31/windows-8-good</id>
+    <content type="html"><![CDATA[<p>I&rsquo;m just going to admit it up front: I am a complete sucker for a good UI. UX is
+important as well but if you give me a really ugly UI and say &ldquo;But the UX is
+amazing!&rdquo; I&rsquo;m less likely to be interested. Love it, hate it, whatever, the new
+Windows style of interface is attractive. Live tiles are a clever method for
+content consumption that is far more interesting than a straight feed reader.
+Even though that&rsquo;s basically the purpose.</p>
+
+<!--more-->
+
+
+<p>Sure you can put whatever you want there, but essentially it&rsquo;s a feed. The ease
+of programming for the Windows 8 style of application is also welcome. Granted,
+I really don&rsquo;t know anything about XAML. I can mostly read what&rsquo;s going on but
+I&rsquo;m currently having to read up on what it is I want to do if I&rsquo;m not going to
+be dropping things in from the toolbox. But it&rsquo;s fun. And you get Visual Studio.</p>
+
+<p>I like Eclipse a lot. My Java class and C class both had me using Eclipse (IDE
+was optional but Eclipse was a natural choice) and I found myself productive in
+it and all that. But when it came to playing with Android, the experience felt
+extremely clunky. I know there are many that will disagree, and that&rsquo;s fine.
+Preference is subjective. Visual Studio feels streamlined. When I drive a car,
+gadgets are fun but I really only care if they enhance my driving experience. I
+don&rsquo;t need a million buttons to do things. I don&rsquo;t have to have volume control
+on my steering wheel, but it&rsquo;s handy. I don&rsquo;t need extensive configuration. My
+car&rsquo;s purpose is a point A to point B type of thing for me and I like to feel
+the drive. I feel the same about the tools I use to fulfill my role of code
+monkey.</p>
+
+<p>Visual Studio deploys easily between tests for Desktop (windows 8 store), Tablet,
+and Phone. The simulators are clean for tablet and phone. And you don&rsquo;t have to
+wait for what feels like an eternity for them to boot. That&rsquo;s my favorite part.</p>
+
+<p>As for the operating system itself, I don&rsquo;t understand all the complaints.
+Granted, I&rsquo;m an individual that hits the windows key and then immediately begins
+typing to get my desired program. I don&rsquo;t like having to run through context
+menus to find it. So for me to use Windows 8, I had almost no learning curve.
+Yes to get to my wireless settings I have to go through the charm bar. So what?
+Hide the stuff I don&rsquo;t need to see all the time. I&rsquo;m fine with that. I spend most
+of my time on the desktop. I really don&rsquo;t see the Start menu dash unless I&rsquo;m
+doing a search to find the program I want.</p>
+
+<p>This isn&rsquo;t some sort of colossal failure or a war on users. Why is it we idolize
+the screens we see on Star Trek and such and then when we&rsquo;re presented with
+something that moves more toward that direction we reject it?</p>
+
+<p>I&rsquo;ve never been a fan of the ribbon for Office, but I actually like it for
+Windows Explorer. New folder? Boom. Dedicated icon for that. Search filtering.
+Dedicated icons. I feel like it&rsquo;s an improvement. It adds a little bulk to the
+top of the window but it isn&rsquo;t an unwelcome feature.</p>
+
+<p>Windows 8 really shines with touch interaction though. I like the paradigm shift.
+The choice of blending tablet with desktop is nice because you can grab a tablet
+PC (that is, one running Windows 8, not WindowsRT) and have it on the couch
+while you&rsquo;re watching television, but then snap it in to whatever docking method
+your particular hardware supports and you&rsquo;re back to your usual mouse and
+keyboard. Love that.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Project - Active/Responsive Ambient Lighting]]></title>
+    <link href="http://cdownard.github.io/blog/2012/11/02/new-project-active-slash-responsive-ambient-lighting/"/>
+    <updated>2012-11-02T10:00:00-06:00</updated>
+    <id>http://cdownard.github.io/blog/2012/11/02/new-project-active-slash-responsive-ambient-lighting</id>
+    <content type="html"><![CDATA[<p>So, while browsing the wonderful web one day recently a friend of mine,
+<a href="https://plus.google.com/109744469121910551000/posts">Clint Shuman</a>, sent me a
+link to an RGB LED grid that acted as a
+<a href="http://www.youtube.com/watch?v=AP2fJgS-b8g">responsive ambient light for a TV</a>.
+Awesome right? I love stuff like this. It&rsquo;s simple, but it really adds an
+interesting touch to movie night. Naturally, we immediately set out to program
+our own version.</p>
+
+<!--more-->
+
+
+<p>The concept of active ambience is pretty interesting. The fire in that Avatar
+video link really enhances the feeling of having that torch flipped around. I
+definitely like that but there are a few limitations to this implementation of
+ambipi.</p>
+
+<p>First, it is Windows only. Although Windows is a perfectly pervasive and
+acceptable OS, it is not the only one - nor is it frequently the choice of my
+media enthusiasts. A home theater build using Linux is often a less expensive
+and adaptable solution. Further, the limitation of using XBMC that is specially
+compiled for this feature limits the playing pool to a release cycle based on
+this feature. One can&rsquo;t simply update to the latest and greatest XBMC the
+whenever they please (ambipi extensions, not boblight for those thinking of it).</p>
+
+<p>Which leads to the main hurdle: what about active ambience for other uses of
+the machine? VLC? Video conferencing? And the list continues. I want a solution
+that works with the display output and not only one application (although it has
+plenty of extensions). Adalight and others certainly have achieved this, but I
+would like to solve the problem in python and make it as cross platform/device
+as possible with additional configuration. Ultimately, how nifty would this type
+of thing be on displays, at trade shows, etc? Pretty eye catching.</p>
+
+<p>So enter python and some good fun playing with websockets to test the results. I
+don&rsquo;t have any LEDs to plug into my <a href="http://raspberrypi.org">Raspberry Pi</a>, so
+Clint and I setup a cherrypy server with a websocket to communicate back to the
+server. The webpage has a configurable grid of squares. Although we started with
+a 3x2 grid, we have moved on to a 5x3 as we feel it&rsquo;ll produce a better ambience.
+The test with 8x8 went well but for now I just want to focus on getting a basic
+setup working flawlessly. Originally we made a full grid with all pieces of the
+screen updating (that is, all 15 boxes in a 5x3) but then decided to do a
+perimeter only since we won&rsquo;t have LEDs in the center behind the display. A
+perimeter of boxes on a 5x3 results in a 12-count. The grid generation algorithm
+was changed to simply build a full row if it was the first or last row and since
+the algorithm is only run once, there&rsquo;s no performance hit.</p>
+
+<p>At first, we were at about 8 fps using screencaptures for each individual grid.
+This is super slow (200-300 millisecond response time based on grid size). So we
+changed the algorithm to capture the screen once and then resize it before
+sending it off to be analyzed by bounding box. This significantly improved
+performance and currently we&rsquo;re around 15-20 fps depending on how tempermental my
+CPU is feeling. Oddly my computer at work runs at about 45 ms pretty consistently
+while at home I&rsquo;m more consistently in the 80-100 ms range. I still haven&rsquo;t
+figured out why that is, but I did just upgrade to Windows 8 so maybe there are
+some issues I haven&rsquo;t found yet relating to that (work is Windows XP).</p>
+
+<p>Ultimately, I&rsquo;d like to move to the win32api and see if I can get any improvement
+over the Python Imaging Library (PIL). For linux, we currently have GTK being
+used. It&rsquo;s possible we&rsquo;ll go to native C and use X to grab the window if needed,
+but we&rsquo;ll need to run some tests. GTK is staying pretty consistent with where PIL
+is (45 ms). I thought GTK would be far faster, but perhaps there&rsquo;s room for
+improvement with the algorithm.</p>
+
+<p>The current plan (for me, Clint will use an Arduino) is to have my computer
+serving the image data over UDP to a Raspberry pi. Alternatively, could leave the
+Pi plugged in but that does involve the limitation of putting the computer next
+to the pi and therefore next to the tv. I don&rsquo;t currently have any spare
+computers lying around so a network method is preferable.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Learning C]]></title>
+    <link href="http://cdownard.github.io/blog/2012/10/28/learning-c/"/>
+    <updated>2012-10-28T10:00:00-06:00</updated>
+    <id>http://cdownard.github.io/blog/2012/10/28/learning-c</id>
+    <content type="html"><![CDATA[<p>I don&rsquo;t have years of programming experience. The time that I devote to learning languages tends to be allocated to Python or something work related (.Net). However, I&rsquo;m currently enrolled in a course focused on introductory C. At times I feel as though I have stepped into a time machine.</p>
+
+<!--more-->
+
+
+<p>I used to play this video game and the people who were really obsessed maxed all their stats as much as they could. There were intense calculations that could be done. People could spend hours figuring out the best way to spellcraft their armor or weapons so that every possible point or stat could be claimed. More hours would be spent &ldquo;farming&rdquo; locations for &ldquo;drops&rdquo; to create the perfect armor set. It sounds like a complete waste of time, and maybe it was, but it was certainly fun. I was one of those obsessed people that did everything they could to maximize their &ldquo;utility.&rdquo;</p>
+
+<p>C reminds me of this mindset. I can completely see how people who are obsessed with performance or being in control of as many aspects of a program as possible would love C. You get to control almost everything so you get to optimize almost everything. You manage your memory. You fine tune everything. No doubt C is fast, but for once in my life I find myself enjoying the automatic management I get from lots of other, higher-level languages. Obtaining input in C presents a good example:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class='C'><span class='line'><span class="cp">#include &lt;stdio.h&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="kt">void</span> <span class="nf">main</span> <span class="p">()</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'>    <span class="kt">int</span> <span class="n">inputChoice</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">do</span> <span class="p">{</span>
+</span><span class='line'>        <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Please make a selection from the choices (1-4): &quot;</span><span class="p">);</span>
+</span><span class='line'>        <span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%d*[</span><span class="se">\n</span><span class="s">]&quot;</span><span class="p">);</span>
+</span><span class='line'>        <span class="k">if</span> <span class="p">(</span><span class="n">inputChoice</span> <span class="o">&lt;</span> <span class="mi">1</span> <span class="o">||</span> <span class="n">inputChoice</span> <span class="o">&gt;</span> <span class="mi">4</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>            <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Error - you have entered an invalid choice.&quot;</span><span class="p">);</span>
+</span><span class='line'>        <span class="p">}</span>
+</span><span class='line'><span class="p">}</span> <span class="p">(</span><span class="k">while</span> <span class="n">inputChoice</span> <span class="o">&lt;</span> <span class="mi">1</span> <span class="o">||</span> <span class="n">inputChoice</span> <span class="o">&gt;</span> <span class="mi">4</span><span class="p">);}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This is how we collect input in C. We have to protect ourselves, and an easy way for a beginner like myself in C to protect against bad data is to use a do loop. Oh, that section with <code>*[\n]</code>? Yeah. That prevents the system from trying to store the newline character (<code>\n</code>). Yep. You have to handle that.</p>
+
+<p>The thing is, I completely understand how awesome this must have been for a long time. But now it&rsquo;s just not necessary to me to spend a lot of time doing all this when I can literally do it in one line of code in another language. Take python for example:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="n">inputChoice</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">&#39;Please make a selection&#39;</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I&rsquo;m cheating because there&rsquo;s no error handling. But we can add that with a couple of lines admittedly. The point isn&rsquo;t so much the length. It&rsquo;s having to handle things like the newline character. You also can&rsquo;t test data types in C.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Higher Education Is a Gateway Drug]]></title>
+    <link href="http://cdownard.github.io/blog/2012/09/23/higher-education-is-a-gateway-drug/"/>
+    <updated>2012-09-23T10:00:00-06:00</updated>
+    <id>http://cdownard.github.io/blog/2012/09/23/higher-education-is-a-gateway-drug</id>
+    <content type="html"><![CDATA[<p>If you&rsquo;re like me, then you&rsquo;ve been told your whole life the same thing:</p>
+
+<blockquote><p>Be good. Get good grades. Get into a good school. Get a good job.</p></blockquote>
+
+
+<p>That&rsquo;s a lot of repetition for the word &ldquo;good.&rdquo; But all of those conditions are
+not sufficient to produce the final result. This mantra is espoused by parents
+and society (teachers, advisors, etc.) as if it&rsquo;s a logical conclusion:
+IF you&rsquo;re good and get good grades and get into a good school  THEN you&rsquo;ll get a
+good job.</p>
+
+<!--more-->
+
+
+<p>This is pretty faulty logic. For the P,Q logic geeks out there you can of course
+pick this apart pretty quickly. But the point here is that the good job doesn&rsquo;t
+necessarily come from the previous conditions. They help, sure, but there&rsquo;s an X
+factor somewhere. We can call it luck, ambition, drive, personal draw (the
+nature of someone being drawn to another or &ldquo;taking a liking to&rdquo; another), and
+I&rsquo;m sure many others.</p>
+
+<p>One thing is clear: getting a good education isn&rsquo;t about getting a job. It&rsquo;s
+about becoming a better thinker. I&rsquo;m not sure when we decided that time spent in
+a college or university was job training, but that&rsquo;s how people treat it now. I
+have been guilty of treating university education as job training. It usually
+presents itself in the following form:
+Why do I have to take class X? I&rsquo;ll never have to use that in my future job.
+Well no kidding. If your focus is to only learn what you need for use on the
+job, go get a technical certificate and just work in the real world instead of
+going to university. The point of higher education is not to make better
+workers. That&rsquo;s job training, technical training, conferences, and the like.
+Pursue those avenues for making a better or more knowledgeable worker. The
+purpose of higher education is to make better thinkers. It frustrates me to no
+end to hear about how an individual believes they have no need to take an
+English (that is, composition/rhetoric) course because it doesn&rsquo;t apply to their
+mathematics degree.</p>
+
+<p>Yes, it does.</p>
+
+<p>Effectively communicating applies to all degrees and careers. If you can&rsquo;t
+write, you&rsquo;re at a disadvantage. If you can only perform basic math, you&rsquo;re at a
+disadvantage. You also look foolish in a meeting where you&rsquo;re discussing
+projections when you don&rsquo;t understand how someone arrived at a particular
+conclusion based on some basic algebraic formula. I remember thinking to myself
+in a class on Natural Resources why would I possibly ever need to know what the
+silver lining on a cloud is called.</p>
+
+<p>The reality is that having an education has intrinsic value. Humans have
+incredible powers of perception, but if you don&rsquo;t have a broad base of
+information you can&rsquo;t draw the same conclusions. The age of Google and instant
+access to information has enabled us to do more but has simultaneously resulted
+in lowered expectations of what we need to know. Rather than thinking about all
+the new things you can learn, instead our society takes the approach of not
+needing to know something because they know where to find it.</p>
+
+<p>That&rsquo;s good for the over-achieving crowd. But it&rsquo;s bad for those who are
+disinterested. Those who can use that knowledge and conclude something more
+quickly are at an advantage in career competition. That&rsquo;s not to say one should
+attempt to learn everything and always have it at the ready. There are
+exceptions such as high level theory/equations/etc. But if you have to learn a
+basic concept before using the higher one, you couldn&rsquo;t plan on what higher
+level concept you needed. Competition for limited resources. Not much has
+changed in the world regarding that basic tenet of existence.</p>
+
+<p>So what&rsquo;s the point? Higher education isn&rsquo;t job training. It&rsquo;s teaching folks
+how to think. Becoming a better thinker has its own intrinsic value. Getting a
+major in a field focuses that thinking in a particular subject area. But
+thinking isn&rsquo;t job training. And that&rsquo;s lucky for those getting an education.</p>
+
+<p>However, it&rsquo;s a gateway drug. I made an error in choosing my undergrad,
+Political Science. Not because I don&rsquo;t love the subject, but ultimately my path
+in life changed enough that the degree wouldn&rsquo;t be put to use in my career.
+Except that I focused heavily on writing in my undergrad and I&rsquo;m an effective
+communicator. I work in technology now, at a software company. And though I
+completed a year of classes for an MBA, I&rsquo;m currently enrolled and seeking my
+second Bachelor&rsquo;s - in Computer Science. I&rsquo;m not positive I&rsquo;ll complete the MBA,
+but as I began with Political Science and intended to pursue a JD/MBA, now I
+have altered my path to pursue a BS in Computer Science and potentially an MBA
+as well.</p>
+
+<p>Education is intrinsically valuable. It is also a means to an end and we
+therefore often view it as onerous or irrational in some cases. But our
+collective goal should be to increase knowledge and understanding, not merely
+technical merits. The latter are important, but they&rsquo;re not enough. Those
+committed to attaining credentials fit the post&rsquo;s title. B.A. then M.B.A. and
+concurrent B.S. That&rsquo;s definitely beginning a collection&hellip;</p>
+]]></content>
+  </entry>
   
 </feed>
