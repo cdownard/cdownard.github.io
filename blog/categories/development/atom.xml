@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Development | Code Quorum]]></title>
   <link href="http://cdownard.github.io/blog/categories/development/atom.xml" rel="self"/>
   <link href="http://cdownard.github.io/"/>
-  <updated>2015-01-20T08:06:17-07:00</updated>
+  <updated>2015-01-20T08:21:44-07:00</updated>
   <id>http://cdownard.github.io/</id>
   <author>
     <name><![CDATA[Christopher Downard]]></name>
@@ -33,7 +33,14 @@ increase cool factor:</p>
 
 <h3>Real-time</h3>
 
-<p><blockquote><p>&ldquo;Post and response &hellip; is kind of boring. I think most people have become<br/>accustomed to see the spinning wheel load your results.&rdquo;<br/>This has got to be a trendy thing, but it also makes software so nifty these<br/>days. Things like &lsquo;real-time collaboration&rsquo; or sharing or feedback. They all<br/>make software feel not only faster but engaging. Post and response, where you<br/>post data and are then rendered a results view, is kind of boring. I think most<br/>people have become accustomed to see the spinning wheel load your results.</p></blockquote></p>
+<p>&ldquo;Post and response &hellip; is kind of boring. I think most people have become
+accustomed to see the spinning wheel load your results.&rdquo;</p>
+
+<p>This has got to be a trendy thing, but it also makes software so nifty these
+days. Things like &lsquo;real-time collaboration&rsquo; or sharing or feedback. They all
+make software feel not only faster but engaging. Post and response, where you
+post data and are then rendered a results view, is kind of boring. I think most
+people have become accustomed to see the spinning wheel load your results.</p>
 
 <p>I know at my day job I see that wheel all the time when I&rsquo;m doing tests. We&rsquo;re
 in the midst of launching a new version of our UI for the main part of our
@@ -54,8 +61,9 @@ one piece.</p>
 
 <p>&ldquo;Social also means having a community. If you build a community, meaning forming
 a common culture around a topic, idea, belief, etc., then you&rsquo;re more likely to
-attract more people from that pool.&rdquo;
-Ideas these days tend to have some social component. Sharing an achievement in a
+attract more people from that pool.&rdquo;</p>
+
+<p>Ideas these days tend to have some social component. Sharing an achievement in a
 weight loss tracker or a ride you just completed. Not to mention the calls to
 action to share that you&rsquo;re using a given product. Moreover, it&rsquo;s almost more
 popular now to use social authentication instead of having a database containing
